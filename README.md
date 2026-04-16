@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-04-14（火）
+最終更新: 2026-04-16（木）
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-04-16 | 木 | ビジネス + デザイン | [20260416.md](./20260416.md) |
 | 2026-04-14 | 火 | ビジネス + デザイン | [20260414.md](./20260414.md) |
 | 2026-04-13 | 月 | 技術 + 実装 | [20260413.md](./20260413.md) |
 
@@ -31,6 +32,7 @@
 
 ## 深掘り候補（次の土曜用）
 
+- CoreWeave と AI インフラ投資の加速度 — GPU クラウド市場の集約化と startup の financing patterns
 - Figma Make × Shopify AI Toolkit の実運用パターン — design-to-code pipeline を完全自動化したときの review bottleneck と QA 体制
 - Q1 2026 メガラウンド（OpenAI $122B / Anthropic $30B）の資本効率性分析 — 「frontier + integration + business」のどれに価値が集約しているか
 - Houdini + Claude MCP で 3D production headcount をどこまで削減可能か — 実製作スタジオでの cost-benefit 試算
