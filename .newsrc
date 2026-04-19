@@ -1,0 +1,40 @@
+# AI News Research Configuration
+# Configuration for ai_news_research.py and research-news.sh
+
+# Git configuration
+GIT_USER_NAME="News Bot"
+GIT_USER_EMAIL="news-bot@example.com"
+
+# Repository settings
+REPO_OWNER="p10-con"
+REPO_NAME="ai_news_report"
+DEFAULT_BASE_BRANCH="main"
+
+# Auto-merge settings
+ENABLE_AUTO_MERGE=true
+AUTO_MERGE_METHOD="squash"
+
+# Report settings
+REPORT_DIR="."
+README_FILE="README.md"
+
+# Themes (indexed by weekday: 0=Monday, 6=Sunday)
+# Format: "JP_DAY|THEME|DESCRIPTION"
+THEME_0="月|技術 + 実装|新モデル、API 更新、ベンチマーク、フロントエンド × AI、Python/LLM ライブラリ"
+THEME_1="火|ビジネス + デザイン|業界動向、資金調達、AI デザインツール、Figma、Generative UI"
+THEME_2="水|技術 + 実装|新モデル、API 更新、ベンチマーク、フロントエンド × AI、Python/LLM ライブラリ"
+THEME_3="木|ビジネス + デザイン|業界動向、資金調達、AI デザインツール、Figma、3D/AI モデリング"
+THEME_4="金|技術 + 実装|新モデル、API 更新、ベンチマーク、フロントエンド × AI、Python/LLM ライブラリ"
+THEME_5="土|週まとめ + 深掘り|その週で最も重要だったトピックを 1~2 件深掘り"
+THEME_6="日|自由探索|エンターテインメント寄りの楽しい話題、純粋な興味ドリブン"
+
+# Editor for manual editing
+EDITOR="nano"
+
+# Logging
+LOG_LEVEL="INFO"
+LOG_FILE="/tmp/ai-news-research.log"
+
+# Optional: Web search settings (for future enhancement)
+# SEARCH_PROVIDER="google"
+# SEARCH_LIMIT="5"
