@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-04-16（木）
+最終更新: 2026-04-23（金）
 
 ---
 
@@ -8,15 +8,15 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma Make が April 2 リリース、MCP 対応で AI がキャンバス直操作](https://www.figma.com/solutions/ai-design-systems-generator/)** — デザインシステムを文脈として理解する AI コンポーネント生成、Design governance が新職務に
-- **[Q1 2026 が過去最高 $300B ファンディング達成、AI が 80% 独占](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)** — メガラウンド集約化で seed-stage 資金難加速。「モデル開発」から「revenue-generating agent」投資へシフト
-- **[Houdini が Claude × MCP で 3D 生成に本格対応](https://skywork.ai/skypage/en/houdini-claude-ai-3d-creation/1979041820994818048)** — Procedural + Generative の merge で 3D production workflow が自動化、 3D artist の職務が tool integration specialist へ再構成
+- **[Claude Opus 4.7 リリース — 1M トークンコンテキストで agent 実行時間 30～50% 削減](https://www.anthropic.com/news/claude-opus-4-7)** — Managed Agents との統合で enterprise workflow 自動化がスケール、API tool コスト 50% 低下で本番運用コスト急落
+- **[Next.js が AI Agent ドキュメント正式化、フロントエンド×AI ベストプラクティス標準化](https://nextjs.org/docs/app/guides/ai-agents)** — AGENTS.md と bundled docs で AI coding agent の API reference を版管理、Vercel AI SDK で streaming chatbot 実装の integration barrier 大幅低下
+- **[Python LLM 生態系の April 快進撃 — vLLM・LiteLLM で multi-provider API 統一が現実化](https://llm-stats.com/llm-updates)** — OpenAI format での 100+ provider 統一呼び出しが model switching・fallback を実装可能に、open-source Llama 4 がfrontier model と競合
 
 ---
 
 ## 今週のサマリー
 
-※ 今週（4/13～4/19）のサマリーは土曜に確定予定。月曜・火曜は個別テーマ蒐集中。
+※ 今週（4/20～4/26）のサマリーは土曜 4/26 に確定予定。金曜（4/23）は frontier model・backend infrastructure・Python ecosystem の 3 軸で April の技術トレンドを集約。
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-04-23 | 金 | 技術 + 実装 | [20260423.md](./20260423.md) |
 | 2026-04-16 | 木 | ビジネス + デザイン | [20260416.md](./20260416.md) |
 | 2026-04-14 | 火 | ビジネス + デザイン | [20260414.md](./20260414.md) |
 | 2026-04-13 | 月 | 技術 + 実装 | [20260413.md](./20260413.md) |
@@ -32,7 +33,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.7 × Managed Agents による enterprise automation の cost-benefit — 1M token context で何が変わるか、実装パターンと落とし穴
+- Next.js AI Agent 生態系の成熟化 — Vercel AI SDK / LangChain / Anthropic MCP の統合パターン、developer experience の現状と課題
+- Open-source LLM の frontier model への接近 — Llama 4 Maverick・GLM-4.7 の実運用可能性、vendor lock-in 回避のタイミング
+- Python multi-provider LLM abstraction の実装運用 — LiteLLM による provider switching の reliability・cost optimization の実施例
 - CoreWeave と AI インフラ投資の加速度 — GPU クラウド市場の集約化と startup の financing patterns
 - Figma Make × Shopify AI Toolkit の実運用パターン — design-to-code pipeline を完全自動化したときの review bottleneck と QA 体制
-- Q1 2026 メガラウンド（OpenAI $122B / Anthropic $30B）の資本効率性分析 — 「frontier + integration + business」のどれに価値が集約しているか
-- Houdini + Claude MCP で 3D production headcount をどこまで削減可能か — 実製作スタジオでの cost-benefit 試算
