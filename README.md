@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-04-23（金）
+最終更新: 2026-04-25（土）
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## 今週のサマリー
 
-※ 今週（4/20～4/26）のサマリーは土曜 4/26 に確定予定。金曜（4/23）は frontier model・backend infrastructure・Python ecosystem の 3 軸で April の技術トレンドを集約。
+2026年4月の AI 開発インフラ三層構造の確立。Anthropic Claude Opus 4.7（1M context・cost-optimized）+ Managed Agents により、エンタープライズ向けの長文脈・自動化が cost-effective に実現。Next.js / Vercel AI SDK による AGENTS.md standardization で、frontend engineer も AI agent を native に integrate。Python LLM ecosystem（vLLM・LiteLLM）の multi-provider abstraction により、OpenAI format で 100+ provider を統一呼び出し、vendor lock-in 回避と cost optimization の両立が現実化。結果、prototype から production deployment まで days 単位で可能に。frontier model・open-source・multi-cloud の cost-benefit が task type で自動選択される時代へ移行。
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-04-25 | 土 | 週まとめ + 深掘り | [20260425.md](./20260425.md) |
 | 2026-04-23 | 金 | 技術 + 実装 | [20260423.md](./20260423.md) |
 | 2026-04-16 | 木 | ビジネス + デザイン | [20260416.md](./20260416.md) |
 | 2026-04-14 | 火 | ビジネス + デザイン | [20260414.md](./20260414.md) |
@@ -33,9 +34,8 @@
 
 ## 深掘り候補（次の土曜用）
 
-- Claude Opus 4.7 × Managed Agents による enterprise automation の cost-benefit — 1M token context で何が変わるか、実装パターンと落とし穴
-- Next.js AI Agent 生態系の成熟化 — Vercel AI SDK / LangChain / Anthropic MCP の統合パターン、developer experience の現状と課題
 - Open-source LLM の frontier model への接近 — Llama 4 Maverick・GLM-4.7 の実運用可能性、vendor lock-in 回避のタイミング
 - Python multi-provider LLM abstraction の実装運用 — LiteLLM による provider switching の reliability・cost optimization の実施例
 - CoreWeave と AI インフラ投資の加速度 — GPU クラウド市場の集約化と startup の financing patterns
 - Figma Make × Shopify AI Toolkit の実運用パターン — design-to-code pipeline を完全自動化したときの review bottleneck と QA 体制
+- AI agent の cost breakdown と billing model — transaction level の granularity で cost tracking し、unit economics を dashboard 化する手法
