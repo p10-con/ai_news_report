@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-04-25（土）
+最終更新: 2026-04-28（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Opus 4.7 リリース — 1M トークンコンテキストで agent 実行時間 30～50% 削減](https://www.anthropic.com/news/claude-opus-4-7)** — Managed Agents との統合で enterprise workflow 自動化がスケール、API tool コスト 50% 低下で本番運用コスト急落
-- **[Next.js が AI Agent ドキュメント正式化、フロントエンド×AI ベストプラクティス標準化](https://nextjs.org/docs/app/guides/ai-agents)** — AGENTS.md と bundled docs で AI coding agent の API reference を版管理、Vercel AI SDK で streaming chatbot 実装の integration barrier 大幅低下
-- **[Python LLM 生態系の April 快進撃 — vLLM・LiteLLM で multi-provider API 統一が現実化](https://llm-stats.com/llm-updates)** — OpenAI format での 100+ provider 統一呼び出しが model switching・fallback を実装可能に、open-source Llama 4 がfrontier model と競合
+- **[Q1 2026 ベンチャー投資、過去最高の 3,000 億ドル突破 — AI が全体の 80% を占める](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)** — OpenAI・Anthropic・xAI など frontier model 企業への大型資金流入が続き、AI tool・service 開発リソースが急増、Figma などの AI 機能統合加速
+- **[Figma、ChatGPT Images 2.0 統合で生成画像品質が大幅向上 — design workflow 効率化](https://techcrunch.com/2026/04/23/figma-launches-new-ai-powered-object-removal-and-image-extension/)** — デザイナーの画像生成ワークフロー改善、外部ツール依存減少、AI agent の MCP 対応でプログラマティック資産操作も拡張
+- **[Cursor AI、50 億ドル評価額で 20 億ドル調達 — AI coding assistant 市場が急成長](https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html)** — Developer tool 領域での急速な成長を示唆、フロントエンド開発での AI assistant 活用一層進む見通し
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-04-28 | 火 | ビジネス + デザイン | [20260428.md](./20260428.md) |
 | 2026-04-25 | 土 | 週まとめ + 深掘り | [20260425.md](./20260425.md) |
 | 2026-04-23 | 金 | 技術 + 実装 | [20260423.md](./20260423.md) |
 | 2026-04-16 | 木 | ビジネス + デザイン | [20260416.md](./20260416.md) |
@@ -34,6 +35,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- ベンチャー資金流入（Q1 $300B）と AI tool 開発ロードマップの加速 — Figma・Cursor など design・coding tool への投資拡大がもたらす機能実装スピード、feature parity 競争の激化
+- Figma AI agent × MCP server による design-to-code 完全自動化の実運用 — ChatGPT Images 2.0 統合がもたらす design precision・iteration cycle の短縮、review bottleneck の在り方
+- Cursor・IDE AI assistant 市場の unit economics — $50B 評価額までの成長ドライバー、LLM API cost vs developer productivity gain の threshold
 - Open-source LLM の frontier model への接近 — Llama 4 Maverick・GLM-4.7 の実運用可能性、vendor lock-in 回避のタイミング
 - Python multi-provider LLM abstraction の実装運用 — LiteLLM による provider switching の reliability・cost optimization の実施例
 - CoreWeave と AI インフラ投資の加速度 — GPU クラウド市場の集約化と startup の financing patterns
