@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-04-28（火）
+最終更新: 2026-04-29（水）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Q1 2026 ベンチャー投資、過去最高の 3,000 億ドル突破 — AI が全体の 80% を占める](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)** — OpenAI・Anthropic・xAI など frontier model 企業への大型資金流入が続き、AI tool・service 開発リソースが急増、Figma などの AI 機能統合加速
-- **[Figma、ChatGPT Images 2.0 統合で生成画像品質が大幅向上 — design workflow 効率化](https://techcrunch.com/2026/04/23/figma-launches-new-ai-powered-object-removal-and-image-extension/)** — デザイナーの画像生成ワークフロー改善、外部ツール依存減少、AI agent の MCP 対応でプログラマティック資産操作も拡張
-- **[Cursor AI、50 億ドル評価額で 20 億ドル調達 — AI coding assistant 市場が急成長](https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html)** — Developer tool 領域での急速な成長を示唆、フロントエンド開発での AI assistant 活用一層進む見通し
+- **[OpenAI GPT-5.5 発表、コーディング・リサーチ能力を強化](https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html)** — 最新フロンティアモデルのリリース、AI インテグレーション戦略の再検討と model selection 基準が急速に更新
+- **[Claude Opus 4.7 リリース、トークナイザー効率化で API コスト最大 95% 削減](https://platform.claude.com/docs/en/about-claude/pricing)** — 同一プロンプトで 5～35% トークン削減、Batch API との併用で production 計画の ROI 向上
+- **[DeepSeek V4 プレビュー公開、オープンソース競争が加速](https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html)** — コーディング・推論タスクで高性能達成、vendor lock-in 回避の現実性が拡大
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-04-29 | 水 | 技術 + 実装 | [20260429.md](./20260429.md) |
 | 2026-04-28 | 火 | ビジネス + デザイン | [20260428.md](./20260428.md) |
 | 2026-04-25 | 土 | 週まとめ + 深掘り | [20260425.md](./20260425.md) |
 | 2026-04-23 | 金 | 技術 + 実装 | [20260423.md](./20260423.md) |
@@ -35,11 +36,11 @@
 
 ## 深掘り候補（次の土曜用）
 
+- GPT-5.5 vs Claude Opus 4.7 vs DeepSeek V4 の実装比較 — コーディング・推論・エージェント領域での benchmark 実測、model selection matrix の構築
+- Claude Opus 4.7 トークナイザー効率化による cost-benefit 分析 — Batch API + Prompt Caching の組み合わせで実現可能な最大削減シナリオ、ROI 計算モデル
+- Open-source frontier への移行検討 — DeepSeek V4・Llama 4・GLM-5 の実運用可能性、infrastructure cost vs model cost の trade-off
 - ベンチャー資金流入（Q1 $300B）と AI tool 開発ロードマップの加速 — Figma・Cursor など design・coding tool への投資拡大がもたらす機能実装スピード、feature parity 競争の激化
 - Figma AI agent × MCP server による design-to-code 完全自動化の実運用 — ChatGPT Images 2.0 統合がもたらす design precision・iteration cycle の短縮、review bottleneck の在り方
 - Cursor・IDE AI assistant 市場の unit economics — $50B 評価額までの成長ドライバー、LLM API cost vs developer productivity gain の threshold
-- Open-source LLM の frontier model への接近 — Llama 4 Maverick・GLM-4.7 の実運用可能性、vendor lock-in 回避のタイミング
 - Python multi-provider LLM abstraction の実装運用 — LiteLLM による provider switching の reliability・cost optimization の実施例
-- CoreWeave と AI インフラ投資の加速度 — GPU クラウド市場の集約化と startup の financing patterns
-- Figma Make × Shopify AI Toolkit の実運用パターン — design-to-code pipeline を完全自動化したときの review bottleneck と QA 体制
 - AI agent の cost breakdown と billing model — transaction level の granularity で cost tracking し、unit economics を dashboard 化する手法
