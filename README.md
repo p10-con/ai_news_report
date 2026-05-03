@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-02（土）
+最終更新: 2026-05-04（月）
 
 ---
 
@@ -8,15 +8,15 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[DeepSeek V4：1.6 兆パラメータ、MIT ライセンスで全公開](https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough)** — frontier-grade モデルの完全オープンソース化、commercial license 制約なしで local deployment 可能に
-- **[NVIDIA Nemotron 3：オープンモデルの効率化が 4 倍に加速](https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models)** — edge deployment・mobile agent 向け最適化、inference cost-benefit 判断が明確化
-- **[AI 推論最適化：inference workload が training を上回る](https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-infrastructure-compute-strategy.html)** — edge-distributed + data center intensive 二層化が標準化、infrastructure 再編が加速
+- **[Claude Opus 4.7：最新フロンティアモデル正式リリース](https://platform.claude.com/docs/en/release-notes/overview)** — Opus 4.6 同価格で複雑推論・agentic coding 最適化、API breaking changes に対応が必須
+- **[Next.js 16.2：エージェント対応フレームワーク更新](https://nextjs.org/blog/next-16-2-ai)** — Agent-ready 開発環境・terminal diagnostics integration で agent 実装サイクル 50% 短縮
+- **[Claude Managed Agents：公開ベータ版開始](https://platform.claude.com/docs/en/release-notes/overview)** — secure sandboxing・built-in tools で managed agent service 実現、自社 infrastructure cost 大幅削減
 
 ---
 
 ## 今週のサマリー
 
-2026年5月第1週は「frontier model 標準化」と「design-code 統合加速」が加速。OpenAI GPT-5.5・Claude Opus 4.7・DeepSeek V4 のトリプル frontier model 時代へ移行。特に DeepSeek V4 の MIT ライセンス open-weight 化により、proprietary model 依存脱却と on-premise deployment が現実化。同時に Figma AI × MCP server、Adobe CX Enterprise による design-to-code pipeline の bidirectional 統合が design review bottleneck を排除。結果として frontend team は「model selection（cost-latency-accuracy trade-off）」と「design system governance」の二軸で infrastructure 最適化を自動実行。VC 資金 Q1 記録更新（$300B）により、tool maturity acceleration と adoption cycle 短縮が加速される局面。
+2026年5月第2週は「API 層での frontier model 正式化」と「framework 統合加速」が焦点。Claude Opus 4.7 の正式リリースにより、API pricing 安定性・production readiness が確定。Next.js 16.2 による agent-ready 環境整備により、frontend team が AI feature 実装に必要なdev tooling・diagnostics を standard library で取得可能に。Claude Managed Agents の public beta により、agent 構築の infrastructure burden が大幅軽減。結果として application layer での「model selection」「framework version upgrade」「agent architecture decision」の三層で意思決定が加速される局面。土曜に詳細分析予定。
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
 | 2026-05-02 | 土 | 週まとめ + 深掘り | [20260502.md](./20260502.md) |
 | 2026-05-01 | 金 | 技術 + 実装 | [20260501.md](./20260501.md) |
 | 2026-04-30 | 木 | ビジネス + デザイン | [20260430.md](./20260430.md) |
@@ -37,6 +38,8 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.7 API breaking changes migration strategy — Opus 4.6 からの API contract diff、production service の stage upgrade flow、version switching period の cost management
+- Next.js 16.2 Agent integration patterns — AGENTS.md scaffold、DevTools terminal access、React Server Components × Agent inference の実装例
 - Knowledge distillation at scale：DeepSeek V4-Flash + V4-Pro teacher model による fine-tuning pattern — open-source model で生産 LLM を構築する際の practical strategy、GPU utilization 最適化と multi-node training coordination
 - Design system governance × AI agent automation — Figma design token から AI-generated code への fidelity 検証、design quality threshold を maintain する automated CI/CD pipeline の構築
 - On-premise frontier model deployment infrastructure — vLLM + Hugging Face + Nvidia Ascend + Cambricon による自社インフラ stack、data sovereignty と cost-benefit を両立する運用 playbook
