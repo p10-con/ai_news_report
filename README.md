@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-04（月）
+最終更新: 2026-05-05（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Opus 4.7：最新フロンティアモデル正式リリース](https://platform.claude.com/docs/en/release-notes/overview)** — Opus 4.6 同価格で複雑推論・agentic coding 最適化、API breaking changes に対応が必須
-- **[Next.js 16.2：エージェント対応フレームワーク更新](https://nextjs.org/blog/next-16-2-ai)** — Agent-ready 開発環境・terminal diagnostics integration で agent 実装サイクル 50% 短縮
-- **[Claude Managed Agents：公開ベータ版開始](https://platform.claude.com/docs/en/release-notes/overview)** — secure sandboxing・built-in tools で managed agent service 実現、自社 infrastructure cost 大幅削減
+- **[Figma AI デザインツール更新：Draw・Image・FigJam 統合強化](https://www.figma.com/blog/introducing-three-new-tools-for-precise-image-editing-in-figma/)** — auto layout・FigJam MCP integration で design-to-code サイクル 20% 高速化、design system governance と AI automation 両立
+- **[エンタープライズ AI 採用率 64%：Claude シェア急伸](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — Anthropic 44% adoption（testing 含め 63%）で OpenAI に対抗、$2.52T market で multi-model strategy 標準化
+- **[Sierra AI エージェント企業 $950M 調達：$15.8B 評価額](https://techstartups.com/2026/05/04/bret-taylors-ai-startup-sierra-raises-950m-at-15-8b-valuation-as-demand-for-ai-agents-surges/)** — Q1 2026 $300B VC funding で agent infrastructure・vertical SaaS への capital 集約加速
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
 | 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
 | 2026-05-02 | 土 | 週まとめ + 深掘り | [20260502.md](./20260502.md) |
 | 2026-05-01 | 金 | 技術 + 実装 | [20260501.md](./20260501.md) |
