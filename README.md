@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-05（火）
+最終更新: 2026-05-07（木）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma AI デザインツール更新：Draw・Image・FigJam 統合強化](https://www.figma.com/blog/introducing-three-new-tools-for-precise-image-editing-in-figma/)** — auto layout・FigJam MCP integration で design-to-code サイクル 20% 高速化、design system governance と AI automation 両立
-- **[エンタープライズ AI 採用率 64%：Claude シェア急伸](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — Anthropic 44% adoption（testing 含め 63%）で OpenAI に対抗、$2.52T market で multi-model strategy 標準化
-- **[Sierra AI エージェント企業 $950M 調達：$15.8B 評価額](https://techstartups.com/2026/05/04/bret-taylors-ai-startup-sierra-raises-950m-at-15-8b-valuation-as-demand-for-ai-agents-surges/)** — Q1 2026 $300B VC funding で agent infrastructure・vertical SaaS への capital 集約加速
+- **[Figma 2026 AI：デザイン作業の AI 自動化が標準機能に](https://www.figma.com/resource-library/ai-design-tools/)** — Vectorize・Remove Background・Figma Make で design-to-code 一括自動化、デザインシステム管理と AI 実装の両立
+- **[Anthropic × Blackstone・Goldman Sachs：$1.5B エンタープライズ AI 新会社設立](https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/)** — Claude による AI コンサルティング統合、中堅企業の経営オペレーション直結組込で導入リスク軽減
+- **[Microsoft $10B 日本投資（2026～2029）：SoftBank・Sakura Internet と AI データセンター展開](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html)** — 100 万人開発者育成、APAC frontier model 推論インフラ拠点化で国内 AI 採用加速
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
 | 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
 | 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
 | 2026-05-02 | 土 | 週まとめ + 深掘り | [20260502.md](./20260502.md) |
@@ -39,6 +40,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Figma Make の自然言語プロトタイピング実装 — natural language → interactive prototype への自動変換ロジック、design validation flow の最適化、生産性向上測定
+- Anthropic enterprise consulting business model 展開戦略 — API から「embedded engineer + model」へのビジネス拡張、顧客 LTV と retention、competitive advantage vs OpenAI consulting
+- Japan AI infrastructure strategy：Microsoft・SoftBank・Sakura partnership が APAC frontier model competition に及ぼす影響 — regional data sovereignty と cost effectiveness の両立、他国インフラとの cost comparison
 - Claude Opus 4.7 API breaking changes migration strategy — Opus 4.6 からの API contract diff、production service の stage upgrade flow、version switching period の cost management
 - Next.js 16.2 Agent integration patterns — AGENTS.md scaffold、DevTools terminal access、React Server Components × Agent inference の実装例
 - Knowledge distillation at scale：DeepSeek V4-Flash + V4-Pro teacher model による fine-tuning pattern — open-source model で生産 LLM を構築する際の practical strategy、GPU utilization 最適化と multi-node training coordination
