@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-07（木）
+最終更新: 2026-05-10（日）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma 2026 AI：デザイン作業の AI 自動化が標準機能に](https://www.figma.com/resource-library/ai-design-tools/)** — Vectorize・Remove Background・Figma Make で design-to-code 一括自動化、デザインシステム管理と AI 実装の両立
-- **[Anthropic × Blackstone・Goldman Sachs：$1.5B エンタープライズ AI 新会社設立](https://fortune.com/2026/05/04/anthropic-claude-consulting-industry-joint-venture-blackstone-goldman-sachs/)** — Claude による AI コンサルティング統合、中堅企業の経営オペレーション直結組込で導入リスク軽減
-- **[Microsoft $10B 日本投資（2026～2029）：SoftBank・Sakura Internet と AI データセンター展開](https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html)** — 100 万人開発者育成、APAC frontier model 推論インフラ拠点化で国内 AI 採用加速
+- **[AI生成デジタルインフルエンサー：娯楽業界での採用が加速](https://media-entertainment.news-articles.net/content/2026/05/08/the-evolution-of-media-streaming-shifts-gaming-resilience-and-the-ai-revolution.html)** — スキャンダルリスク排除で24時間ファン接触実現、3D・アニメーション実装の標準化で製作効率化
+- **[マルチモーダルAIアート：テキスト×画像×音声の融合制作へ](https://vicomma.com/blog/the-future-of-art-how-ai-is-shaping-the-creative-landscape-in-2026/)** — VR・ブロックチェーン上の動的アート展開、デザインチーム向けマルチレイヤー制作環境シフト
+- **[エンタープライズビデオ生成ツール：Sora Pro・Runway Gen-4が実運用化](https://resource.digen.ai/ai-video-tools-for-creatives-2026/)** — Netflix・Disney・L'Oréal採用で撮影・後制作を数週間から数時間へ短縮、デザインプロトタイプ自動化で部門壁が解消
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-10 | 日 | 自由探索 | [20260510.md](./20260510.md) |
 | 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
 | 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
 | 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
@@ -40,6 +41,8 @@
 
 ## 深掘り候補（次の土曜用）
 
+- AI生成インフルエンサー × 動画プラットフォーム戦略 — YouTubeショート・TikTok向けのAI生成パフォーマー育成とコンテンツ最適化、ファン層の継続性とアルゴリズム対応の最適化
+- マルチモーダルAI制作ツールチェーン構築 — Unity・Unreal・WebGLでの生成アセット統合、QC自動化フロー、リアルタイム3D環境への反映
 - Figma Make の自然言語プロトタイピング実装 — natural language → interactive prototype への自動変換ロジック、design validation flow の最適化、生産性向上測定
 - Anthropic enterprise consulting business model 展開戦略 — API から「embedded engineer + model」へのビジネス拡張、顧客 LTV と retention、competitive advantage vs OpenAI consulting
 - Japan AI infrastructure strategy：Microsoft・SoftBank・Sakura partnership が APAC frontier model competition に及ぼす影響 — regional data sovereignty と cost effectiveness の両立、他国インフラとの cost comparison
