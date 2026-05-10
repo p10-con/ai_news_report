@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-10（日）
+最終更新: 2026-05-11（月）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[AI生成デジタルインフルエンサー：娯楽業界での採用が加速](https://media-entertainment.news-articles.net/content/2026/05/08/the-evolution-of-media-streaming-shifts-gaming-resilience-and-the-ai-revolution.html)** — スキャンダルリスク排除で24時間ファン接触実現、3D・アニメーション実装の標準化で製作効率化
-- **[マルチモーダルAIアート：テキスト×画像×音声の融合制作へ](https://vicomma.com/blog/the-future-of-art-how-ai-is-shaping-the-creative-landscape-in-2026/)** — VR・ブロックチェーン上の動的アート展開、デザインチーム向けマルチレイヤー制作環境シフト
-- **[エンタープライズビデオ生成ツール：Sora Pro・Runway Gen-4が実運用化](https://resource.digen.ai/ai-video-tools-for-creatives-2026/)** — Netflix・Disney・L'Oréal採用で撮影・後制作を数週間から数時間へ短縮、デザインプロトタイプ自動化で部門壁が解消
+- **[Claude Opus 4.7 正式版リリース — xhigh effort レベル追加でコスト最適化](https://www.anthropic.com/news/claude-opus-4-7)** — Opus 4.6 と同一価格で production readiness 確定、推論コストの細粒度制御で API 採用加速
+- **[Next.js 16.2 リリース — AGENTS.md バンドルで AI コード生成精度向上](https://nextjs.org/blog/next-16-2-ai)** — version-matched documentation で agent hallucination 低減、AI-generated component の production deployment risk 激減
+- **[Claude Managed Agents 公開ベータ版 — Webhook 連携で multi-agent orchestration 実現](https://platform.claude.com/docs/en/release-notes/overview)** — session/vault lifecycle webhook で infrastructure burden 軽減、memory機能で context 共有簡素化
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-11 | 月 | 技術 + 実装 | [20260511.md](./20260511.md) |
 | 2026-05-10 | 日 | 自由探索 | [20260510.md](./20260510.md) |
 | 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
 | 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
@@ -41,6 +42,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.7 API migration & cost optimization — Opus 4.6 からの API contract 差分、xhigh effort の最適な使用パターン検証、production cost-benefit analysis
+- Next.js 16.2 agent-integrated component development patterns — AGENTS.md scaffold の実装例、React Server Components × AI inference の性能測定、IDE/DevTools integration の活用例
+- Claude Managed Agents multi-agent orchestration patterns — webhook-based async coordination、memory sharing across agents、customer support × code review agent chain の実装例
 - AI生成インフルエンサー × 動画プラットフォーム戦略 — YouTubeショート・TikTok向けのAI生成パフォーマー育成とコンテンツ最適化、ファン層の継続性とアルゴリズム対応の最適化
 - マルチモーダルAI制作ツールチェーン構築 — Unity・Unreal・WebGLでの生成アセット統合、QC自動化フロー、リアルタイム3D環境への反映
 - Figma Make の自然言語プロトタイピング実装 — natural language → interactive prototype への自動変換ロジック、design validation flow の最適化、生産性向上測定
