@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-12（火）
+最終更新: 2026-05-16（土）
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## 今週のサマリー
 
-2026年5月第2週は「API 層での frontier model 正式化」と「framework 統合加速」が焦点。Claude Opus 4.7 の正式リリースにより、API pricing 安定性・production readiness が確定。Next.js 16.2 による agent-ready 環境整備により、frontend team が AI feature 実装に必要なdev tooling・diagnostics を standard library で取得可能に。Claude Managed Agents の public beta により、agent 構築の infrastructure burden が大幅軽減。結果として application layer での「model selection」「framework version upgrade」「agent architecture decision」の三層で意思決定が加速される局面。土曜に詳細分析予定。
+2026年5月第2週は「frontier model 正式化」と「enterprise adoption の organization dependency」が同時に明確化した週。技術側：Claude Opus 4.7 GA・xhigh effort level 導入・Next.js 16.2 AI agent 標準化により API/framework tier が確定。Developer community は「model quality より framework integration」を優先。ビジネス側：Sierra が Fortune 50 50%導入・年間1.5億ドル ARR を達成。79%の organizations が困難に直面する理由は technology gap ではなく governance・role definition・strategy clarity の欠如。実装への示唆：API migration は cost modeling + tokenizer impact 測定を先行；Customer success は org readiness assessment を前置条件；Internal team は role redesign（AI Ops/Quality/Interaction specialist）を parallel push；Governance は CEO/CFO buy-in を mandatory に。
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
 | 2026-05-12 | 火 | ビジネス + デザイン | [20260512.md](./20260512.md) |
 | 2026-05-11 | 月 | 技術 + 実装 | [20260511.md](./20260511.md) |
 | 2026-05-10 | 日 | 自由探索 | [20260510.md](./20260510.md) |
@@ -37,12 +38,12 @@
 | 2026-04-28 | 火 | ビジネス + デザイン | [20260428.md](./20260428.md) |
 | 2026-04-25 | 土 | 週まとめ + 深掘り | [20260425.md](./20260425.md) |
 | 2026-04-23 | 金 | 技術 + 実装 | [20260423.md](./20260423.md) |
-| 2026-04-16 | 木 | ビジネス + デザイン | [20260416.md](./20260416.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.7 production cost governance × tokenizer migration strategy — tokenizer による35%トークン増の impact quantify 方法、cache hit ratio 再測定、routing layer redesign で blended cost 最適化、GitHub Copilot・Hex の事例から学ぶ practical approach
 - エンタープライズAI導入の成功パターン × 組織設計 — AI adoption success rate が業界別・企業規模別で大きく異なる理由、Fortune 50の Sierra 採用事例から学ぶ organizational readiness、ROI実現への変革管理プレイブック
 - Sierra の $150M ARR 達成メカニズム × 競合構図 — Bret Taylor のセールス戦略とネットワーク活用、同期調達の Parallel・他エージェント系との市場分化、「AI エージェント層」の事業価値確定を示す事例検証
 - Figma AI Agents による design-to-code の品質改善 — MCP統合で既存 design system との fidelity 検証、AI生成コンポーネントの QA automation pipeline、設計効率向上の定量測定（73% adoption の内実）
