@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-16（土）
+最終更新: 2026-05-20（水）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[エンタープライズAI導入の課題深刻化、79%の組織が実装障害に直面](https://writer.com/blog/enterprise-ai-adoption-2026/)** — AI導入率は40%へ成長も、パイロット段階を超えるプロジェクトは5%に留まり、組織横断的な意思決定・人材不足が深刻
-- **[シエラが950万ドル調達、エンタープライズAIエージェント市場で投資加速](https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/)** — Fortune 50の半数導入で年間1.5億ドルARR超、AI × ビジネスプロセス自動化が確実な事業価値を実証
-- **[Figma の AI Agents 機能が本格稼働、MCP統合で設計ワークフロー自動化へ](https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/)** — 設計チーム73%がAI機能を週次に組み込み、生成コード品質と Design System governance の両立が可能化
+- **[GPT-5.5 Instant、新デフォルトモデルへの昇格](https://openai.com/index/gpt-5-5-instant/)** — 幻覚を52%削減、応答30%短縮で職場適応度向上、全ユーザーに展開予定で ChatGPT エコシステム強化
+- **[Mistral Medium 3.5、推論・コーディング統合モデル](https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5)** — 単一モデルで推論・コーディング統合、SWE-Bench 77.6% で Devstral 2 超越、Le Chat Work モードで複数ステップ自動化
+- **[SubQ、1200万トークンコンテキストの実現](https://thenewstack.io/subquadratic-12-million-context-window/)** — SSA アーキテクチャで計算効率 300〜1000 倍改善、frontier model との cost/accuracy trade-off 逆転、早期アクセスで検証開始
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
 | 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
 | 2026-05-12 | 火 | ビジネス + デザイン | [20260512.md](./20260512.md) |
 | 2026-05-11 | 月 | 技術 + 実装 | [20260511.md](./20260511.md) |
@@ -37,12 +38,14 @@
 | 2026-04-29 | 水 | 技術 + 実装 | [20260429.md](./20260429.md) |
 | 2026-04-28 | 火 | ビジネス + デザイン | [20260428.md](./20260428.md) |
 | 2026-04-25 | 土 | 週まとめ + 深掘り | [20260425.md](./20260425.md) |
-| 2026-04-23 | 金 | 技術 + 実装 | [20260423.md](./20260423.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- GPT-5.5 Instant の幻覚削減メカニズム × API response quality 改善 — 52.5% 削減の技術的背景、instruction tuning vs reinforcement learning の効果比較、production deployment での error rate impact の定量測定
+- Mistral Medium 3.5 の統合アーキテクチャ × Open Weights 戦略 — 単一 128B モデルで推論・コーディング統合の技術的工夫、Qwen3.5・Devstral 比較での性能差分析、LLM の機能統合トレンド
+- SubQ の Subquadratic Sparse Attention（SSA）実装 × 長コンテキスト活用パターン — 12M token 処理での practical use case、frontier model との cost-accuracy trade-off 逆転の事業インパクト、早期アクセス ユーザーの実装例調査
 - Claude Opus 4.7 production cost governance × tokenizer migration strategy — tokenizer による35%トークン増の impact quantify 方法、cache hit ratio 再測定、routing layer redesign で blended cost 最適化、GitHub Copilot・Hex の事例から学ぶ practical approach
 - エンタープライズAI導入の成功パターン × 組織設計 — AI adoption success rate が業界別・企業規模別で大きく異なる理由、Fortune 50の Sierra 採用事例から学ぶ organizational readiness、ROI実現への変革管理プレイブック
 - Sierra の $150M ARR 達成メカニズム × 競合構図 — Bret Taylor のセールス戦略とネットワーク活用、同期調達の Parallel・他エージェント系との市場分化、「AI エージェント層」の事業価値確定を示す事例検証
