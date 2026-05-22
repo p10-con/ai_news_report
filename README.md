@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-20（水）
+最終更新: 2026-05-23（土）
 
 ---
 
@@ -8,15 +8,15 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[GPT-5.5 Instant、新デフォルトモデルへの昇格](https://openai.com/index/gpt-5-5-instant/)** — 幻覚を52%削減、応答30%短縮で職場適応度向上、全ユーザーに展開予定で ChatGPT エコシステム強化
-- **[Mistral Medium 3.5、推論・コーディング統合モデル](https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5)** — 単一モデルで推論・コーディング統合、SWE-Bench 77.6% で Devstral 2 超越、Le Chat Work モードで複数ステップ自動化
-- **[SubQ、1200万トークンコンテキストの実現](https://thenewstack.io/subquadratic-12-million-context-window/)** — SSA アーキテクチャで計算効率 300〜1000 倍改善、frontier model との cost/accuracy trade-off 逆転、早期アクセスで検証開始
+- **[Claude Opus 4.7 本番環境のコスト最適化戦略](https://platform.claude.com/docs/en/about-claude/models/migration-guide)** — 新トークナイザーで実効コスト 12～27% 上昇、batch + cache + routing の三層最適化で対策が必須
+- **[Claude Managed Agents のマルチエージェント統合パターン](https://platform.claude.com/docs/en/managed-agents/multi-agent)** — webhook ベース非同期調整で long-running task の接続維持不要、production patterns の best practice 確立
+- **[AI 推論インフラの二層化戦略](https://thenewstack.io/subquadratic-12-million-context-window/)** — edge + datacenter 分離で cost-latency-accuracy trade-off 最適化、team 間 routing governance が新ボトルネック
 
 ---
 
 ## 今週のサマリー
 
-2026年5月第2週は「frontier model 正式化」と「enterprise adoption の organization dependency」が同時に明確化した週。技術側：Claude Opus 4.7 GA・xhigh effort level 導入・Next.js 16.2 AI agent 標準化により API/framework tier が確定。Developer community は「model quality より framework integration」を優先。ビジネス側：Sierra が Fortune 50 50%導入・年間1.5億ドル ARR を達成。79%の organizations が困難に直面する理由は technology gap ではなく governance・role definition・strategy clarity の欠如。実装への示唆：API migration は cost modeling + tokenizer impact 測定を先行；Customer success は org readiness assessment を前置条件；Internal team は role redesign（AI Ops/Quality/Interaction specialist）を parallel push；Governance は CEO/CFO buy-in を mandatory に。
+2026年5月第3週は「frontier model コスト最適化と infrastructure 二層化」が同時進行した週。技術：Opus 4.7 の新トークナイザーで実効コスト 12～27% 上昇、batch + cache + routing で対策必須。Managed Agents の webhook 非同期調整で long-running task cost 低下。Infrastructure：edge-datacenter 二層化が標準化。実装示唆：cost modeling を migration 前置条件に、routing governance を組織統一、production agent の failure propagation パターンを設計。
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-23 | 土 | 週まとめ + 深掘り | [20260523.md](./20260523.md) |
 | 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
 | 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
 | 2026-05-12 | 火 | ビジネス + デザイン | [20260512.md](./20260512.md) |
@@ -37,12 +38,15 @@
 | 2026-04-30 | 木 | ビジネス + デザイン | [20260430.md](./20260430.md) |
 | 2026-04-29 | 水 | 技術 + 実装 | [20260429.md](./20260429.md) |
 | 2026-04-28 | 火 | ビジネス + デザイン | [20260428.md](./20260428.md) |
-| 2026-04-25 | 土 | 週まとめ + 深掘り | [20260425.md](./20260425.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Opus 4.7 cost governance × GitHub Copilot token-based billing — 6月1日の Copilot 課金体系移行（per-request → token-based）で Opus が 7.5x → 27x の multiplier に、multi-agent agentic task の cost 3～4 倍化の対策、OpenRouter cost modeling best practice
+- Managed Agents webhook async coordination の production patterns — failure recovery + retry strategy の設計、memory persistence across long-running sessions、customer support × code review agent の role definition と SLA
+- edge-datacenter 推論分離の routing strategy — team 間での node allocation decision governance model、cost attribution と chargeback の仕組み、lightweight model（DeepSeek V4-Flash）vs frontier model threshold 設定
+- Claude Opus 4.7 cache hit rate 再測定と routing optimization — 128K+ prompts で 93% token cache 吸収、batch processing 50% 割引の活用、production workload の cost-quality trade-off 最適化
 - GPT-5.5 Instant の幻覚削減メカニズム × API response quality 改善 — 52.5% 削減の技術的背景、instruction tuning vs reinforcement learning の効果比較、production deployment での error rate impact の定量測定
 - Mistral Medium 3.5 の統合アーキテクチャ × Open Weights 戦略 — 単一 128B モデルで推論・コーディング統合の技術的工夫、Qwen3.5・Devstral 比較での性能差分析、LLM の機能統合トレンド
 - SubQ の Subquadratic Sparse Attention（SSA）実装 × 長コンテキスト活用パターン — 12M token 処理での practical use case、frontier model との cost-accuracy trade-off 逆転の事業インパクト、早期アクセス ユーザーの実装例調査
