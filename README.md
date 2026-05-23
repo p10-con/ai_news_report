@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-23（土）
+最終更新: 2026-05-24（日）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Opus 4.7 本番環境のコスト最適化戦略](https://platform.claude.com/docs/en/about-claude/models/migration-guide)** — 新トークナイザーで実効コスト 12～27% 上昇、batch + cache + routing の三層最適化で対策が必須
-- **[Claude Managed Agents のマルチエージェント統合パターン](https://platform.claude.com/docs/en/managed-agents/multi-agent)** — webhook ベース非同期調整で long-running task の接続維持不要、production patterns の best practice 確立
-- **[AI 推論インフラの二層化戦略](https://thenewstack.io/subquadratic-12-million-context-window/)** — edge + datacenter 分離で cost-latency-accuracy trade-off 最適化、team 間 routing governance が新ボトルネック
+- **[AI画像生成ツール2026の競争激化 — GPT Image 2とFLUX 1.1が登場](https://getimg.ai/blog/best-ai-art-generator)** — OpenAI・Black Horse FLUX がMidjourneyを脅かす低コスト高品質、デザインツール選択肢が急速に拡大
+- **[「Art Awakens」 — Fremantelが初のAIネイティブTVシリーズをリリース](https://www.hollywoodreporter.com/tv/tv-news/first-native-ai-series-from-fremantle-art-awakens-1236559004/)** — 生成AIを芸術的配慮で活用、エンターテイン業界が主要制作ツールとして位置づけ
+- **[GDC 2026：ゲーム開発者の52%がAIネガティブ、36%が既に活用中](https://www.gianty.com/gdc-2026-report-about-generative-ai/)** — AIアセットの芸術的深さ課題だが、人間のビジョン拡張ツールとして位置づけ直しが進行
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-24 | 日 | 自由探索 | [20260524.md](./20260524.md) |
 | 2026-05-23 | 土 | 週まとめ + 深掘り | [20260523.md](./20260523.md) |
 | 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
 | 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
@@ -43,6 +44,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- FLUX 1.1 Pro Ultra vs Midjourney V7 の実装比較 — フォトリアリズム + 低コスト + テキスト精度、デザインワークフロー統合、プロダクション環境での cost-quality trade-off
+- Fremantel「Art Awakens」の制作パイプライン — AI生成ビジュアルの品質管理・クリエイティブディレクション、AI支援コンテンツ制作の best practice、放送プロダクション業界での AI活用パターン
+- ゲーム開発でのAI活用：プロトタイピング vs 本制作 — 36%採用の内実（リサーチ・コーディング・アセット生成の分離）、芸術的意図の維持メカニズム、チームワークフロー統合の課題
 - Opus 4.7 cost governance × GitHub Copilot token-based billing — 6月1日の Copilot 課金体系移行（per-request → token-based）で Opus が 7.5x → 27x の multiplier に、multi-agent agentic task の cost 3～4 倍化の対策、OpenRouter cost modeling best practice
 - Managed Agents webhook async coordination の production patterns — failure recovery + retry strategy の設計、memory persistence across long-running sessions、customer support × code review agent の role definition と SLA
 - edge-datacenter 推論分離の routing strategy — team 間での node allocation decision governance model、cost attribution と chargeback の仕組み、lightweight model（DeepSeek V4-Flash）vs frontier model threshold 設定
