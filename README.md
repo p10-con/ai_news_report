@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-24（日）
+最終更新: 2026-05-25（月）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[AI画像生成ツール2026の競争激化 — GPT Image 2とFLUX 1.1が登場](https://getimg.ai/blog/best-ai-art-generator)** — OpenAI・Black Horse FLUX がMidjourneyを脅かす低コスト高品質、デザインツール選択肢が急速に拡大
-- **[「Art Awakens」 — Fremantelが初のAIネイティブTVシリーズをリリース](https://www.hollywoodreporter.com/tv/tv-news/first-native-ai-series-from-fremantle-art-awakens-1236559004/)** — 生成AIを芸術的配慮で活用、エンターテイン業界が主要制作ツールとして位置づけ
-- **[GDC 2026：ゲーム開発者の52%がAIネガティブ、36%が既に活用中](https://www.gianty.com/gdc-2026-report-about-generative-ai/)** — AIアセットの芸術的深さ課題だが、人間のビジョン拡張ツールとして位置づけ直しが進行
+- **[Claude Opus 4.7 — 推論制御と同価格の正式リリース](https://www.anthropic.com/news/claude-opus-4-7)** — xhigh 推論レベルで高精度・低レイテンシー trade-off を細かく制御、agentic コーディング実務のコスト最適化が必須化
+- **[Google Gemini Omni 世界モデルと 3.5 Flash デフォルト化](https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html)** — 物理環境予測による 3D シミュレーション・生成 UI 開放、multimodal 環境での実装パターン研究開始
+- **[SubQ 1M-Preview — 初の商用 Subquadratic LLM 12M トークン対応](https://whatllm.org/blog/new-ai-models-may-2026)** — 超長文書処理が frontier cost の 1/5 で可能に、cost-accuracy trade-off 逆転で production 導入候補へ
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-25 | 月 | 技術 + 実装 | [20260525.md](./20260525.md) |
 | 2026-05-24 | 日 | 自由探索 | [20260524.md](./20260524.md) |
 | 2026-05-23 | 土 | 週まとめ + 深掘り | [20260523.md](./20260523.md) |
 | 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
@@ -37,13 +38,14 @@
 | 2026-05-02 | 土 | 週まとめ + 深掘り | [20260502.md](./20260502.md) |
 | 2026-05-01 | 金 | 技術 + 実装 | [20260501.md](./20260501.md) |
 | 2026-04-30 | 木 | ビジネス + デザイン | [20260430.md](./20260430.md) |
-| 2026-04-29 | 水 | 技術 + 実装 | [20260429.md](./20260429.md) |
-| 2026-04-28 | 火 | ビジネス + デザイン | [20260428.md](./20260428.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.7 xhigh 推論レベルの実装パターン — cost-benefit trade-off の最適化、production agent での使用基準、LLM routing layer への組み込み
+- Google Gemini Omni による 3D 生成 UI 実装パターン — world model を活用した interactive environment、generative design system 統合、WebGL・Three.js 連携
+- SubQ 12M token context での実装例調査 — 大規模コードベース全体理解、長文書類分析、knowledge base retrieval augmented generation
 - FLUX 1.1 Pro Ultra vs Midjourney V7 の実装比較 — フォトリアリズム + 低コスト + テキスト精度、デザインワークフロー統合、プロダクション環境での cost-quality trade-off
 - Fremantel「Art Awakens」の制作パイプライン — AI生成ビジュアルの品質管理・クリエイティブディレクション、AI支援コンテンツ制作の best practice、放送プロダクション業界での AI活用パターン
 - ゲーム開発でのAI活用：プロトタイピング vs 本制作 — 36%採用の内実（リサーチ・コーディング・アセット生成の分離）、芸術的意図の維持メカニズム、チームワークフロー統合の課題
