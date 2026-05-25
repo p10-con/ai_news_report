@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-25（月）
+最終更新: 2026-05-26（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Opus 4.7 — 推論制御と同価格の正式リリース](https://www.anthropic.com/news/claude-opus-4-7)** — xhigh 推論レベルで高精度・低レイテンシー trade-off を細かく制御、agentic コーディング実務のコスト最適化が必須化
-- **[Google Gemini Omni 世界モデルと 3.5 Flash デフォルト化](https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html)** — 物理環境予測による 3D シミュレーション・生成 UI 開放、multimodal 環境での実装パターン研究開始
-- **[SubQ 1M-Preview — 初の商用 Subquadratic LLM 12M トークン対応](https://whatllm.org/blog/new-ai-models-may-2026)** — 超長文書処理が frontier cost の 1/5 で可能に、cost-accuracy trade-off 逆転で production 導入候補へ
+- **[Anthropic が 30 億ドル資金調達、評価額 900 億ドル超に](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week)** — Claude API 提供企業の経営安定化と今後の開発方向確定、エンタープライズ AI インフラ競争の激化を象徴
+- **[Figma が Design Agent を正式ローンチ、デザイン制作の自動化を実現](https://www.figma.com/ai/)** — 自然言語からキャンバス内で設計生成・編集、既存デザインシステム尊重で design-to-code の実装効率向上
+- **[エンタープライズ AI 導入 78% 到達、成熟度向上が競争軸に](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — 企業の 86% が AI 予算増加予定、88% が売上増加報告するも成熟実装は 1% に留まり、実装深度化が経営課題化
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-26 | 火 | ビジネス + デザイン | [20260526.md](./20260526.md) |
 | 2026-05-25 | 月 | 技術 + 実装 | [20260525.md](./20260525.md) |
 | 2026-05-24 | 日 | 自由探索 | [20260524.md](./20260524.md) |
 | 2026-05-23 | 土 | 週まとめ + 深掘り | [20260523.md](./20260523.md) |
@@ -37,12 +38,14 @@
 | 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
 | 2026-05-02 | 土 | 週まとめ + 深掘り | [20260502.md](./20260502.md) |
 | 2026-05-01 | 金 | 技術 + 実装 | [20260501.md](./20260501.md) |
-| 2026-04-30 | 木 | ビジネス + デザイン | [20260430.md](./20260430.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Anthropic 30B 資金調達と enterprise AI 市場での位置付け — 評価額 900B 超の評価基準、Claude API の提供体制拡張予定、OpenAI・Google との競争軸の差別化要因
+- Figma Design Agent の design-to-code quality と organization への impact — component fidelity 検証、AI 生成コードの QA automation pipeline、設計効率向上の定量測定（adoption rate の背景）
+- Enterprise AI 成熟度のボトルネック分析と ROI 実現戦略 — なぜ 78% 導入でも成熟度 1% に留まるのか、adoption gap の構造的要因、Fortune 500 の成功パターン抽出
 - Claude Opus 4.7 xhigh 推論レベルの実装パターン — cost-benefit trade-off の最適化、production agent での使用基準、LLM routing layer への組み込み
 - Google Gemini Omni による 3D 生成 UI 実装パターン — world model を活用した interactive environment、generative design system 統合、WebGL・Three.js 連携
 - SubQ 12M token context での実装例調査 — 大規模コードベース全体理解、長文書類分析、knowledge base retrieval augmented generation
