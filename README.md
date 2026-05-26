@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-26（火）
+最終更新: 2026-05-27（水）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Anthropic が 30 億ドル資金調達、評価額 900 億ドル超に](https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week)** — Claude API 提供企業の経営安定化と今後の開発方向確定、エンタープライズ AI インフラ競争の激化を象徴
-- **[Figma が Design Agent を正式ローンチ、デザイン制作の自動化を実現](https://www.figma.com/ai/)** — 自然言語からキャンバス内で設計生成・編集、既存デザインシステム尊重で design-to-code の実装効率向上
-- **[エンタープライズ AI 導入 78% 到達、成熟度向上が競争軸に](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — 企業の 86% が AI 予算増加予定、88% が売上増加報告するも成熟実装は 1% に留まり、実装深度化が経営課題化
+- **[Gemini 3.5 Flash が GA、フロンティア級速度を 4 倍で実現](https://whatllm.org/blog/new-ai-models-may-2026)** — 推論レイテンシー重視ユースケースで 4 倍高速化とフロンティアレベルの性能をコスト 1/4 で実現、モデル選定基準の変化
+- **[Claude Opus 4.7 新トークナイザー 35% トークン増、運用コスト再計画が必須](https://platform.claude.com/docs/en/about-claude/pricing)** — 既存 Opus 4.6 からのコスト予測無効化、Prompt Caching 90% 削減と Batch API の活用で最大 95% コスト削減可能
+- **[Three.js 2026 は WebGPU × AI エージェント、3D Web 開発パラダイム激変](https://www.utsubo.com/blog/threejs-2026-what-changed)** — Vibe Coding と AI 駆動モデル生成で prototyping-to-production が劇的短縮、Next.js + Three.js × AI が新スタンダード化
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-27 | 水 | 技術 + 実装 | [20260527.md](./20260527.md) |
 | 2026-05-26 | 火 | ビジネス + デザイン | [20260526.md](./20260526.md) |
 | 2026-05-25 | 月 | 技術 + 実装 | [20260525.md](./20260525.md) |
 | 2026-05-24 | 日 | 自由探索 | [20260524.md](./20260524.md) |
@@ -37,12 +38,14 @@
 | 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
 | 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
 | 2026-05-02 | 土 | 週まとめ + 深掘り | [20260502.md](./20260502.md) |
-| 2026-05-01 | 金 | 技術 + 実装 | [20260501.md](./20260501.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Gemini 3.5 Flash と Claude Opus 4.7 の推論速度・コスト比較分析 — frontier 系3モデル（Gemini 3.5 Flash / Opus 4.7 / GPT-5.5）の end-to-end latency・token cost・quality metrics 実測、real-world application での routing decision の best practice
+- Claude Opus 4.7 tokenizer 35% 増の migration strategy と cost governance — Prompt Caching + Batch API による最大 95% コスト削減の実装パターン、production agent 環境での impact quantify 方法、他 LLM routing layer への統合
+- Three.js Vibe Coding と generative 3D の production patterns — WebGPU 本番化による browser local inference の implications、Meshy / 3D AI Studio との pipeline integration、AI 生成コードの品質検証 & refactoring workflow
 - Anthropic 30B 資金調達と enterprise AI 市場での位置付け — 評価額 900B 超の評価基準、Claude API の提供体制拡張予定、OpenAI・Google との競争軸の差別化要因
 - Figma Design Agent の design-to-code quality と organization への impact — component fidelity 検証、AI 生成コードの QA automation pipeline、設計効率向上の定量測定（adoption rate の背景）
 - Enterprise AI 成熟度のボトルネック分析と ROI 実現戦略 — なぜ 78% 導入でも成熟度 1% に留まるのか、adoption gap の構造的要因、Fortune 500 の成功パターン抽出
