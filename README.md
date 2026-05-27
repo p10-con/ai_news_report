@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-27（水）
+最終更新: 2026-05-28（木）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Gemini 3.5 Flash が GA、フロンティア級速度を 4 倍で実現](https://whatllm.org/blog/new-ai-models-may-2026)** — 推論レイテンシー重視ユースケースで 4 倍高速化とフロンティアレベルの性能をコスト 1/4 で実現、モデル選定基準の変化
-- **[Claude Opus 4.7 新トークナイザー 35% トークン増、運用コスト再計画が必須](https://platform.claude.com/docs/en/about-claude/pricing)** — 既存 Opus 4.6 からのコスト予測無効化、Prompt Caching 90% 削減と Batch API の活用で最大 95% コスト削減可能
-- **[Three.js 2026 は WebGPU × AI エージェント、3D Web 開発パラダイム激変](https://www.utsubo.com/blog/threejs-2026-what-changed)** — Vibe Coding と AI 駆動モデル生成で prototyping-to-production が劇的短縮、Next.js + Three.js × AI が新スタンダード化
+- **[Figma AI・Google Stitch・Emergent — AI デザインツールの急速な成熟化](https://www.figma.com/resource-library/ai-tools-for-ux-designers/)** — テキストから UI 設計が分単位で完了、デザイナーの役割が「AI 対話・方向性調整」へシフト、開発サイクル大幅短縮
+- **[Blender AI Integration — 3D モデリングが AI で自動化される時代へ](https://3d-agent.com/blender-ai)** — Blender 内でテキストから直接 3D モデル生成、制作工程の 70% が分単位で完了、小規模チームでも大規模プロジェクト可能に
+- **[Anthropic が $30 billion 調達、Andrej Karpathy が新 CTO に就任](https://blog.mean.ceo/ai-advancements-news-may-2026/)** — 企業価値 $900 billion 超、LLM フロンティアの研究加速とサービス拡大が確実に
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-05-28 | 木 | ビジネス + デザイン | [20260528.md](./20260528.md) |
 | 2026-05-27 | 水 | 技術 + 実装 | [20260527.md](./20260527.md) |
 | 2026-05-26 | 火 | ビジネス + デザイン | [20260526.md](./20260526.md) |
 | 2026-05-25 | 月 | 技術 + 実装 | [20260525.md](./20260525.md) |
@@ -37,12 +38,14 @@
 | 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
 | 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
 | 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
-| 2026-05-02 | 土 | 週まとめ + 深掘り | [20260502.md](./20260502.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Blender AI native integration の production patterns — 3D-Agent・Meshy との統合、mesh topology 品質基準、アーティストワークフロー統合による効率化定量測定、プロトタイピング vs 本制作での使い分け
+- AI デザインツール（Figma AI・Stitch・Emergent）の design-to-code fidelity 検証 — AI 生成コンポーネントの品質基準、QA automation pipeline、design system compliance、designer adoption の実装例から学ぶ best practice
+- Anthropic $30B 調達と Claude API 戦略の拡張 — 企業価値 900B 超の評価基準、API 提供体制・pricing の今後計画、Andrej Karpathy 新 CTO による研究方向、OpenAI・Google との競争軸の差別化
 - Gemini 3.5 Flash と Claude Opus 4.7 の推論速度・コスト比較分析 — frontier 系3モデル（Gemini 3.5 Flash / Opus 4.7 / GPT-5.5）の end-to-end latency・token cost・quality metrics 実測、real-world application での routing decision の best practice
 - Claude Opus 4.7 tokenizer 35% 増の migration strategy と cost governance — Prompt Caching + Batch API による最大 95% コスト削減の実装パターン、production agent 環境での impact quantify 方法、他 LLM routing layer への統合
 - Three.js Vibe Coding と generative 3D の production patterns — WebGPU 本番化による browser local inference の implications、Meshy / 3D AI Studio との pipeline integration、AI 生成コードの品質検証 & refactoring workflow
