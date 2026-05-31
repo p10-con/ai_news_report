@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-05-28（木）
+最終更新: 2026-06-01（月）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma AI・Google Stitch・Emergent — AI デザインツールの急速な成熟化](https://www.figma.com/resource-library/ai-tools-for-ux-designers/)** — テキストから UI 設計が分単位で完了、デザイナーの役割が「AI 対話・方向性調整」へシフト、開発サイクル大幅短縮
-- **[Blender AI Integration — 3D モデリングが AI で自動化される時代へ](https://3d-agent.com/blender-ai)** — Blender 内でテキストから直接 3D モデル生成、制作工程の 70% が分単位で完了、小規模チームでも大規模プロジェクト可能に
-- **[Anthropic が $30 billion 調達、Andrej Karpathy が新 CTO に就任](https://blog.mean.ceo/ai-advancements-news-may-2026/)** — 企業価値 $900 billion 超、LLM フロンティアの研究加速とサービス拡大が確実に
+- **[Claude Opus 4.8 — 1M トークン標準コンテキスト実装](https://platform.claude.com/docs/en/release-notes/overview)** — 大規模コードベース全体理解が単一リクエストで実現可能、batch + cache で API コスト 95% 削減
+- **[OpenAI GPT-5.5 — エージェント型コーディングモデル](https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html)** — 幻覚率 52.5% 削減、GitHub Copilot で自動テスト生成精度大幅向上、CI/CD 統合
+- **[Anthropic Agent SDK 課金体系変更（6 月 15 日施行）](https://help.apiyi.com/en/anthropic-claude-subscription-agent-sdk-billing-split-june-2026-en.html)** — Agent SDK が subscription limits から分離、月額従量課金化、long-running agent cost model 再構築必須
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-01 | 月 | 技術 + 実装 | [20260601.md](./20260601.md) |
 | 2026-05-28 | 木 | ビジネス + デザイン | [20260528.md](./20260528.md) |
 | 2026-05-27 | 水 | 技術 + 実装 | [20260527.md](./20260527.md) |
 | 2026-05-26 | 火 | ビジネス + デザイン | [20260526.md](./20260526.md) |
@@ -37,12 +38,14 @@
 | 2026-05-10 | 日 | 自由探索 | [20260510.md](./20260510.md) |
 | 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
 | 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
-| 2026-05-04 | 月 | 技術 + 実装 | [20260504.md](./20260504.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.8 × 1M token context の実装パターン — 大規模コードベース全体理解、batch cache hit rate 再測定、プロジェクト構造別の token accounting、VS Code integration での UX
+- Agent SDK 課金体系変更（6月15日）による cost governance 再設計 — subscription limit 廃止の impact quantify、long-running agent × webhook async の cost model 最適化、multi-tenant 環境での cost attribution
+- GPT-5.5 幻覚削減（52.5%）のメカニズムと実装影響 — instruction tuning vs reinforcement learning の効果分析、production error rate の定量測定、competitive positioning vs Opus 4.8
 - Blender AI native integration の production patterns — 3D-Agent・Meshy との統合、mesh topology 品質基準、アーティストワークフロー統合による効率化定量測定、プロトタイピング vs 本制作での使い分け
 - AI デザインツール（Figma AI・Stitch・Emergent）の design-to-code fidelity 検証 — AI 生成コンポーネントの品質基準、QA automation pipeline、design system compliance、designer adoption の実装例から学ぶ best practice
 - Anthropic $30B 調達と Claude API 戦略の拡張 — 企業価値 900B 超の評価基準、API 提供体制・pricing の今後計画、Andrej Karpathy 新 CTO による研究方向、OpenAI・Google との競争軸の差別化
