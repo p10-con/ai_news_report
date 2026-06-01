@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-01（月）
+最終更新: 2026-06-02（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Opus 4.8 — 1M トークン標準コンテキスト実装](https://platform.claude.com/docs/en/release-notes/overview)** — 大規模コードベース全体理解が単一リクエストで実現可能、batch + cache で API コスト 95% 削減
-- **[OpenAI GPT-5.5 — エージェント型コーディングモデル](https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html)** — 幻覚率 52.5% 削減、GitHub Copilot で自動テスト生成精度大幅向上、CI/CD 統合
-- **[Anthropic Agent SDK 課金体系変更（6 月 15 日施行）](https://help.apiyi.com/en/anthropic-claude-subscription-agent-sdk-billing-split-june-2026-en.html)** — Agent SDK が subscription limits から分離、月額従量課金化、long-running agent cost model 再構築必須
+- **[Anthropic 65 億ドル調達で企業価値 965 億ドル達成](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)** — Series H で OpenAI を超える評価獲得、Q1 2026 は AI スタートアップに 300 億ドル流入し業界投資の 33% を占める
+- **[Figma AI Agent Beta 版ロール開始（5 月 20 日）](https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/)** — Design system を尊重しながら generative design を自動化、beta 期間中は credit 消費なし、designers のワークフロー統合加速
+- **[エンタープライズ AI 導入率 72% 到達、成熟度格差が課題](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — 72% が production 導入も agentic AI は 6% に留まる、79% が実装課題に直面、Claude（28%）vs OpenAI（55%）の市場二極化進行
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-02 | 火 | ビジネス + デザイン | [20260602.md](./20260602.md) |
 | 2026-06-01 | 月 | 技術 + 実装 | [20260601.md](./20260601.md) |
 | 2026-05-28 | 木 | ビジネス + デザイン | [20260528.md](./20260528.md) |
 | 2026-05-27 | 水 | 技術 + 実装 | [20260527.md](./20260527.md) |
@@ -37,12 +38,14 @@
 | 2026-05-11 | 月 | 技術 + 実装 | [20260511.md](./20260511.md) |
 | 2026-05-10 | 日 | 自由探索 | [20260510.md](./20260510.md) |
 | 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
-| 2026-05-05 | 火 | ビジネス + デザイン | [20260505.md](./20260505.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Anthropic 65 億ドル調達と Claude API 戦略の拡張 — 企業価値 965B 達成の評価基準、long-context と agentic workflow による OpenAI との差別化、API 提供体制・pricing 計画、enterprise AI 市場シェア獲得戦略
+- Figma AI Agent design-to-code 品質と組織への impact — component fidelity 検証、design system 準拠の QA automation pipeline、designers adoption 率と効率改善の定量測定、AI 生成コードの refactoring workflow
+- エンタープライズ AI 成熟度の 72% vs 6% gap 分析 — AI 導入は進むが agentic AI は停滞する理由、organizational readiness と change management、Fortune 500 の成功パターン抽出、skills gap 対策の best practice
 - Claude Opus 4.8 × 1M token context の実装パターン — 大規模コードベース全体理解、batch cache hit rate 再測定、プロジェクト構造別の token accounting、VS Code integration での UX
 - Agent SDK 課金体系変更（6月15日）による cost governance 再設計 — subscription limit 廃止の impact quantify、long-running agent × webhook async の cost model 最適化、multi-tenant 環境での cost attribution
 - GPT-5.5 幻覚削減（52.5%）のメカニズムと実装影響 — instruction tuning vs reinforcement learning の効果分析、production error rate の定量測定、competitive positioning vs Opus 4.8
