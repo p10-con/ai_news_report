@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-02（火）
+最終更新: 2026-06-04（木）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Anthropic 65 億ドル調達で企業価値 965 億ドル達成](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)** — Series H で OpenAI を超える評価獲得、Q1 2026 は AI スタートアップに 300 億ドル流入し業界投資の 33% を占める
-- **[Figma AI Agent Beta 版ロール開始（5 月 20 日）](https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/)** — Design system を尊重しながら generative design を自動化、beta 期間中は credit 消費なし、designers のワークフロー統合加速
-- **[エンタープライズ AI 導入率 72% 到達、成熟度格差が課題](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — 72% が production 導入も agentic AI は 6% に留まる、79% が実装課題に直面、Claude（28%）vs OpenAI（55%）の市場二極化進行
+- **[Microsoft MAI-Code-1-Flash がコード生成をスケール化](https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html)** — Build 2026 発表、OpenAI 依存低減と開発者コスト削減、IDE 統合による production workflow 革新
+- **[Figma AI がデザインから開発まで統合エコシステムを実現](https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/)** — 72% デザイナー採用、design-to-code 自動化加速、コンポーネント状態・インタラクション・フロー完全生成
+- **[Houdini × Claude × MCP で 3D 生成を次のレベルへ](https://skywork.ai/skypage/en/houdini-claude-ai-3d-creation/1979041820994818048)** — 手続き型 node による 3D 形状 AI 支援、asset 再利用・batch 効率向上、game/VFX production pipeline 最適化
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-04 | 木 | ビジネス + デザイン | [20260604.md](./20260604.md) |
 | 2026-06-02 | 火 | ビジネス + デザイン | [20260602.md](./20260602.md) |
 | 2026-06-01 | 月 | 技術 + 実装 | [20260601.md](./20260601.md) |
 | 2026-05-28 | 木 | ビジネス + デザイン | [20260528.md](./20260528.md) |
@@ -43,6 +44,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Microsoft MAI-Code-1-Flash の生産性改善メカニズムと OpenAI 競争への影響 — 自社 code generation model の機能概要と精度、IDE integration 戦略、developer ecosystem における positioning の変化
+- Figma AI design-to-code fidelity と component quality の実装パターン — AI 生成 component の design system compliance 検証、QA automation pipeline、designer adoption 率と efficiency gain の定量測定
+- Houdini procedural × AI の 3D 生成戦略と game/VFX production への実装例 — node network による complex shape generation の automation degree、artist workflow 統合、commercial production での cost-benefit analysis
 - Anthropic 65 億ドル調達と Claude API 戦略の拡張 — 企業価値 965B 達成の評価基準、long-context と agentic workflow による OpenAI との差別化、API 提供体制・pricing 計画、enterprise AI 市場シェア獲得戦略
 - Figma AI Agent design-to-code 品質と組織への impact — component fidelity 検証、design system 準拠の QA automation pipeline、designers adoption 率と効率改善の定量測定、AI 生成コードの refactoring workflow
 - エンタープライズ AI 成熟度の 72% vs 6% gap 分析 — AI 導入は進むが agentic AI は停滞する理由、organizational readiness と change management、Fortune 500 の成功パターン抽出、skills gap 対策の best practice
