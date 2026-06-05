@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-04（木）
+最終更新: 2026-06-06（土）
 
 ---
 
@@ -16,7 +16,7 @@
 
 ## 今週のサマリー
 
-2026年5月第3週は「frontier model コスト最適化と infrastructure 二層化」が同時進行した週。技術：Opus 4.7 の新トークナイザーで実効コスト 12～27% 上昇、batch + cache + routing で対策必須。Managed Agents の webhook 非同期調整で long-running task cost 低下。Infrastructure：edge-datacenter 二層化が標準化。実装示唆：cost modeling を migration 前置条件に、routing governance を組織統一、production agent の failure propagation パターンを設計。
+2026年6月第1週は「AI インフラの cost-quality trade-off 再設定」と「enterprise tooling の agentic 統合」が同時進行した週。技術：Claude Opus 4.8 の cache + batch で月 60% コスト削減、OpenAI GPT-5.5 の幻覚削減（52.5%）で production quality 向上。エコシステム：Microsoft MAI-Code-1-Flash による OpenAI 依存低減、Figma AI Agent の design-to-code 自動化、Houdini × Claude による 3D 生成統合が「model + tooling」二層化を示唆。ビジネス：Anthropic $6.5B 調達で valuation $96.5B、OpenAI を上回る。Enterprise 課題：AI 導入率 72% も agentic AI 実装 6% の gap は organization readiness が bottleneck。実装示唆：cost governance を default architecture に、design system quality を design-to-code 前提に、agentic adoption は infrastructure + tooling + change management の三点同時対応が critical。
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-06 | 土 | 週まとめ + 深掘り | [20260606.md](./20260606.md) |
 | 2026-06-04 | 木 | ビジネス + デザイン | [20260604.md](./20260604.md) |
 | 2026-06-02 | 火 | ビジネス + デザイン | [20260602.md](./20260602.md) |
 | 2026-06-01 | 月 | 技術 + 実装 | [20260601.md](./20260601.md) |
@@ -37,13 +38,15 @@
 | 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
 | 2026-05-12 | 火 | ビジネス + デザイン | [20260512.md](./20260512.md) |
 | 2026-05-11 | 月 | 技術 + 実装 | [20260511.md](./20260511.md) |
-| 2026-05-10 | 日 | 自由探索 | [20260510.md](./20260510.md) |
 | 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.8 production cost governance と multi-tier routing strategy — cache hit rate 実装パターン、batch processing の async coordination、token accounting の revenue model への統合、Haiku/Sonnet/Opus 4.8 三層化による blended cost 最適化
+- Figma AI Agent design system compliance automation と QA pipeline の実装 — component mapping fidelity 検証、AI 生成コードの accessibility/semantics 自動チェック、mature design system による quality baseline、designer adoption と効率改善の定量測定
+- Enterprise AI organizational readiness と agentic adoption bottleneck の構造分析 — 72% adoption rate vs 6% agentic implementation gap、change management の critical path、Fortune 500 の成功パターン、skills gap と training strategy
 - Microsoft MAI-Code-1-Flash の生産性改善メカニズムと OpenAI 競争への影響 — 自社 code generation model の機能概要と精度、IDE integration 戦略、developer ecosystem における positioning の変化
 - Figma AI design-to-code fidelity と component quality の実装パターン — AI 生成 component の design system compliance 検証、QA automation pipeline、designer adoption 率と efficiency gain の定量測定
 - Houdini procedural × AI の 3D 生成戦略と game/VFX production への実装例 — node network による complex shape generation の automation degree、artist workflow 統合、commercial production での cost-benefit analysis
