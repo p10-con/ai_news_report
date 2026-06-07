@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-06（土）
+最終更新: 2026-06-08（月）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Microsoft MAI-Code-1-Flash がコード生成をスケール化](https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html)** — Build 2026 発表、OpenAI 依存低減と開発者コスト削減、IDE 統合による production workflow 革新
-- **[Figma AI がデザインから開発まで統合エコシステムを実現](https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/)** — 72% デザイナー採用、design-to-code 自動化加速、コンポーネント状態・インタラクション・フロー完全生成
-- **[Houdini × Claude × MCP で 3D 生成を次のレベルへ](https://skywork.ai/skypage/en/houdini-claude-ai-3d-creation/1979041820994818048)** — 手続き型 node による 3D 形状 AI 支援、asset 再利用・batch 効率向上、game/VFX production pipeline 最適化
+- **[Claude Opus 4.8 正式リリース、開発者向けに強化](https://platform.claude.com/docs/en/release-notes/overview)** — コーディング・推論・エージェンティック領域で大幅改善、6月15日の Opus 4 廃止に伴う移行必須
+- **[Next.js 16.2 AI エージェント対応強化、開発体験向上](https://nextjs.org/blog/next-16-2-ai)** — @vercel/next-browser によるエージェント検査機能、AI 支援開発が標準化、フロントエンド生産性向上
+- **[Claude Agent SDK・Code 課金体系変更（6月15日）、企業向けに重要](https://www.pravinkumar.co/blog/claude-june-15-billing-change-explained-2026)** — 従来のサブスクリプション上限からAPI料金ベースへ移行、月額クレジット制導入、予算計画の早期見直し必要
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-08 | 月 | 技術 + 実装 | [20260608.md](./20260608.md) |
 | 2026-06-06 | 土 | 週まとめ + 深掘り | [20260606.md](./20260606.md) |
 | 2026-06-04 | 木 | ビジネス + デザイン | [20260604.md](./20260604.md) |
 | 2026-06-02 | 火 | ビジネス + デザイン | [20260602.md](./20260602.md) |
@@ -37,13 +38,14 @@
 | 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
 | 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
 | 2026-05-12 | 火 | ビジネス + デザイン | [20260512.md](./20260512.md) |
-| 2026-05-11 | 月 | 技術 + 実装 | [20260511.md](./20260511.md) |
-| 2026-05-07 | 木 | ビジネス + デザイン | [20260507.md](./20260507.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Opus 4.8 production cost governance × API billing 変更（June 15）の impact — Agent SDK 課金体系移行に伴う cost 再計算、月額クレジット $20/$100/$200 の tier 別最適化、multi-agent agentic task の budget allocation 戦略
+- Next.js 16.2 @vercel/next-browser エージェント統合パターン — CLI から browser 状態確認による AI 支援開発の workflow、component 開発での agentic tool 活用、production deployment への影響
+- Claude Agent SDK 課金体系変更（June 15）による cost governance 再設計 — subscription limit 廃止、API 料金ベースへの移行、月額 $20/$100/$200 クレジットモデルの適用シナリオ、既存 agent 実装の cost impact quantify
 - Claude Opus 4.8 production cost governance と multi-tier routing strategy — cache hit rate 実装パターン、batch processing の async coordination、token accounting の revenue model への統合、Haiku/Sonnet/Opus 4.8 三層化による blended cost 最適化
 - Figma AI Agent design system compliance automation と QA pipeline の実装 — component mapping fidelity 検証、AI 生成コードの accessibility/semantics 自動チェック、mature design system による quality baseline、designer adoption と効率改善の定量測定
 - Enterprise AI organizational readiness と agentic adoption bottleneck の構造分析 — 72% adoption rate vs 6% agentic implementation gap、change management の critical path、Fortune 500 の成功パターン、skills gap と training strategy
