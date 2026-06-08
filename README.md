@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-08（月）
+最終更新: 2026-06-09（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Opus 4.8 正式リリース、開発者向けに強化](https://platform.claude.com/docs/en/release-notes/overview)** — コーディング・推論・エージェンティック領域で大幅改善、6月15日の Opus 4 廃止に伴う移行必須
-- **[Next.js 16.2 AI エージェント対応強化、開発体験向上](https://nextjs.org/blog/next-16-2-ai)** — @vercel/next-browser によるエージェント検査機能、AI 支援開発が標準化、フロントエンド生産性向上
-- **[Claude Agent SDK・Code 課金体系変更（6月15日）、企業向けに重要](https://www.pravinkumar.co/blog/claude-june-15-billing-change-explained-2026)** — 従来のサブスクリプション上限からAPI料金ベースへ移行、月額クレジット制導入、予算計画の早期見直し必要
+- **[Figma AI Agent がキャンバス直接操作に対応](https://www.fastcompany.com/91545179/figma-ai-agent-tool)** — デザイナーの 91% が作業効率向上を報告、design-to-dev ハンドオフ自動化へ
+- **[Anthropic が$965B 評価額に到達、初めて OpenAI を上回る](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)** — Series H で$65B 調達、AI 企業評価額争いで初逆転、ベンダー多様化が加速
+- **[OpenAI 55% vs Anthropic 28%——API 利用シェアで市場構図が明確に](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — 企業による生成 AI 採用 65% に到達、ベンダー依存リスク管理が経営課題化
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-09 | 火 | ビジネス + デザイン | [20260609.md](./20260609.md) |
 | 2026-06-08 | 月 | 技術 + 実装 | [20260608.md](./20260608.md) |
 | 2026-06-06 | 土 | 週まとめ + 深掘り | [20260606.md](./20260606.md) |
 | 2026-06-04 | 木 | ビジネス + デザイン | [20260604.md](./20260604.md) |
@@ -37,12 +38,14 @@
 | 2026-05-23 | 土 | 週まとめ + 深掘り | [20260523.md](./20260523.md) |
 | 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
 | 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
-| 2026-05-12 | 火 | ビジネス + デザイン | [20260512.md](./20260512.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Figma AI Agent canvas integration による design-to-code 品質向上 — AI 生成コンポーネントの design system compliance 検証、QA automation pipeline 構築、designer adoption 率（73%）と efficiency gain の定量測定
+- Anthropic $965B 評価額達成と enterprise AI 市場戦略 — OpenAI 上回る企業価値の評価基準、API 提供体制・pricing 計画、long-context + agentic workflow での差別化戦略
+- OpenAI 55% vs Anthropic 28% 市場シェア競争と vendor lock-in 対策 — API 呼び出しボリューム争い、multi-model routing strategy による依存度低減、cost-quality trade-off の企業別 best practice
 - Claude Opus 4.8 production cost governance × API billing 変更（June 15）の impact — Agent SDK 課金体系移行に伴う cost 再計算、月額クレジット $20/$100/$200 の tier 別最適化、multi-agent agentic task の budget allocation 戦略
 - Next.js 16.2 @vercel/next-browser エージェント統合パターン — CLI から browser 状態確認による AI 支援開発の workflow、component 開発での agentic tool 活用、production deployment への影響
 - Claude Agent SDK 課金体系変更（June 15）による cost governance 再設計 — subscription limit 廃止、API 料金ベースへの移行、月額 $20/$100/$200 クレジットモデルの適用シナリオ、既存 agent 実装の cost impact quantify
