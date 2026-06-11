@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-09（火）
+最終更新: 2026-06-12（金）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma AI Agent がキャンバス直接操作に対応](https://www.fastcompany.com/91545179/figma-ai-agent-tool)** — デザイナーの 91% が作業効率向上を報告、design-to-dev ハンドオフ自動化へ
-- **[Anthropic が$965B 評価額に到達、初めて OpenAI を上回る](https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/)** — Series H で$65B 調達、AI 企業評価額争いで初逆転、ベンダー多様化が加速
-- **[OpenAI 55% vs Anthropic 28%——API 利用シェアで市場構図が明確に](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html)** — 企業による生成 AI 採用 65% に到達、ベンダー依存リスク管理が経営課題化
+- **[Claude Fable 5 公開リリース——Opus 4.8 比 10% 以上性能向上](https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html)** — 最高性能モデルの商用提供、code generation・推論品質で実装コスト削減
+- **[AI インフラ最適化が本格化——GPU 利用率 5% からの脱却](https://www.openpr.com/news/4542893/akamas-launches-ai-infrastructure-optimization-to-improve-gpu)** — 推論 80% の cost を 40〜60% 削減、FinOps 化で Enterprise 運用効率化
+- **[Microsoft MAI モデル 7 種リリース——OpenAI 依存低減へ](https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/)** — Code-1-Flash で自動コード生成、on-premise deployment で infrastructure cost 削減
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-12 | 金 | 技術 + 実装 | [20260612.md](./20260612.md) |
 | 2026-06-09 | 火 | ビジネス + デザイン | [20260609.md](./20260609.md) |
 | 2026-06-08 | 月 | 技術 + 実装 | [20260608.md](./20260608.md) |
 | 2026-06-06 | 土 | 週まとめ + 深掘り | [20260606.md](./20260606.md) |
@@ -37,12 +38,14 @@
 | 2026-05-24 | 日 | 自由探索 | [20260524.md](./20260524.md) |
 | 2026-05-23 | 土 | 週まとめ + 深掘り | [20260523.md](./20260523.md) |
 | 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
-| 2026-05-16 | 土 | 週まとめ + 深掘り | [20260516.md](./20260516.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Fable 5 × code generation fidelity と実装パターン — Opus 4.8 比 10% 性能差の技術的背景、code review 自動化への適用、$10/$50 pricing での cost-benefit 逆転点
+- AI インフラ最適化の 40〜60% cost 削減メカニズム — GPU utilization 5% → 実装可能な target level への改善 roadmap、Kubernetes 環境での実装 pattern、multi-model orchestration での効果測定
+- Microsoft MAI-Code-1-Flash × OpenAI 競争構図 — 自社 code generation model の精度・latency・cost での positioning、developer experience と IDE integration、Azure AI studio での on-premise deployment strategy
 - Figma AI Agent canvas integration による design-to-code 品質向上 — AI 生成コンポーネントの design system compliance 検証、QA automation pipeline 構築、designer adoption 率（73%）と efficiency gain の定量測定
 - Anthropic $965B 評価額達成と enterprise AI 市場戦略 — OpenAI 上回る企業価値の評価基準、API 提供体制・pricing 計画、long-context + agentic workflow での差別化戦略
 - OpenAI 55% vs Anthropic 28% 市場シェア競争と vendor lock-in 対策 — API 呼び出しボリューム争い、multi-model routing strategy による依存度低減、cost-quality trade-off の企業別 best practice
