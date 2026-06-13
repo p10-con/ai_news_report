@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-13（土）
+最終更新: 2026-06-14（日）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Fable 5 公開リリース——Opus 4.8 比 10% 以上性能向上](https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html)** — 最高性能モデルの商用提供、code generation・推論品質で実装コスト削減
-- **[AI インフラ最適化が本格化——GPU 利用率 5% からの脱却](https://www.openpr.com/news/4542893/akamas-launches-ai-infrastructure-optimization-to-improve-gpu)** — 推論 80% の cost を 40〜60% 削減、FinOps 化で Enterprise 運用効率化
-- **[Microsoft MAI モデル 7 種リリース——OpenAI 依存低減へ](https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/)** — Code-1-Flash で自動コード生成、on-premise deployment で infrastructure cost 削減
+- **[ジェネレーティブメディア市場 $5.38B、対話型 3D 環境が本格化](https://a16z.com/the-state-of-generative-media-2026/)** — 永続的 3D 環境生成で WebGL・Three.js 統合、design-to-interactive フロー構築へ
+- **[Altera Festival で生成 AI とメディア融合を展示（6/16-17）](https://www.georgiaentertainment.com/2026/06/altera-festival-showcases-how-technology-and-generative-ai-are-transforming-media-and-culture-june-16-17-2026/)** — エンタメ業界 AI 導入パターン・実装事例の情報交換
+- **[Suno AI v5.5、2026 Q2 チャートイン曲 30% が AI クレジット](https://www.unite.ai/best-ai-music-generators/)** — 商用音楽生成が実装段階、コンテンツ制作 pipeline 統合化
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-14 | 日 | 自由探索 | [20260614.md](./20260614.md) |
 | 2026-06-13 | 土 | 週まとめ + 深掘り | [20260613.md](./20260613.md) |
 | 2026-06-12 | 金 | 技術 + 実装 | [20260612.md](./20260612.md) |
 | 2026-06-09 | 火 | ビジネス + デザイン | [20260609.md](./20260609.md) |
@@ -37,13 +38,14 @@
 | 2026-05-26 | 火 | ビジネス + デザイン | [20260526.md](./20260526.md) |
 | 2026-05-25 | 月 | 技術 + 実装 | [20260525.md](./20260525.md) |
 | 2026-05-24 | 日 | 自由探索 | [20260524.md](./20260524.md) |
-| 2026-05-23 | 土 | 週まとめ + 深掘り | [20260523.md](./20260523.md) |
-| 2026-05-20 | 水 | 技術 + 実装 | [20260520.md](./20260520.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Marble（World Labs）による永続的 3D 環境生成の実装パターン — 単一画像・テキストからの 3D 生成の技術仕様、WebGL・Three.js との統合、ゲーム・メタバース・VFX production での活用事例
+- Suno AI v5.5 と商用音楽生成の production pipeline — 30% charting singles での AI クレジット現象の背景、creator rights・ロイヤリティ問題、ビデオ制作・ゲーム・広告での cost-quality trade-off
+- 生成型エンタメメディア市場 $5.38B の内訳分析と企業別戦略 — 動画・音楽・画像・テキスト各セグメントの成長率、Suno・ElevenLabs・Figma AI の市場シェア競争、クリエイター vs enterprise adoption
 - Claude Fable 5 × code generation fidelity と実装パターン — Opus 4.8 比 10% 性能差の技術的背景、code review 自動化への適用、$10/$50 pricing での cost-benefit 逆転点
 - AI インフラ最適化の 40〜60% cost 削減メカニズム — GPU utilization 5% → 実装可能な target level への改善 roadmap、Kubernetes 環境での実装 pattern、multi-model orchestration での効果測定
 - Microsoft MAI-Code-1-Flash × OpenAI 競争構図 — 自社 code generation model の精度・latency・cost での positioning、developer experience と IDE integration、Azure AI studio での on-premise deployment strategy
