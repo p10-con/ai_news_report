@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-14（日）
+最終更新: 2026-06-16（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[ジェネレーティブメディア市場 $5.38B、対話型 3D 環境が本格化](https://a16z.com/the-state-of-generative-media-2026/)** — 永続的 3D 環境生成で WebGL・Three.js 統合、design-to-interactive フロー構築へ
-- **[Altera Festival で生成 AI とメディア融合を展示（6/16-17）](https://www.georgiaentertainment.com/2026/06/altera-festival-showcases-how-technology-and-generative-ai-are-transforming-media-and-culture-june-16-17-2026/)** — エンタメ業界 AI 導入パターン・実装事例の情報交換
-- **[Suno AI v5.5、2026 Q2 チャートイン曲 30% が AI クレジット](https://www.unite.ai/best-ai-music-generators/)** — 商用音楽生成が実装段階、コンテンツ制作 pipeline 統合化
+- **[OpenAI・Anthropic・xAI 最大級の資金調達、Q1 2026 で歴史最大の VC ラウンド成立](https://aifundingtracker.com/top-50-ai-startups/)** — model 供給能力が design・content generation 層に与える市場インパクト必須化、Series A $51.9M 平均で infrastructure plays へ集中投資
+- **[Figma AI Agent、5 月 20 日ベータ公開で canvas デザイン自動化が本格化](https://help.figma.com/hc/en-us/articles/23870272542231-Use-AI-tools-in-Figma-Design)** — 73% designer 採用率、auto layout・text-to-UI・live web context で design system compliance 自動化、production workflow 統合加速
+- **[エンタープライズ AI 採用率 88%、Agentic AI 導入は 6% に留まる構造的課題](https://codewave.com/insights/ai-enterprise-adoption-2026/)** — designer side readiness 高いが backend integration・governance 遅れ、organizational readiness と change management が critical barrier
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-16 | 火 | ビジネス + デザイン | [20260616.md](./20260616.md) |
 | 2026-06-14 | 日 | 自由探索 | [20260614.md](./20260614.md) |
 | 2026-06-13 | 土 | 週まとめ + 深掘り | [20260613.md](./20260613.md) |
 | 2026-06-12 | 金 | 技術 + 実装 | [20260612.md](./20260612.md) |
@@ -37,12 +38,14 @@
 | 2026-05-27 | 水 | 技術 + 実装 | [20260527.md](./20260527.md) |
 | 2026-05-26 | 火 | ビジネス + デザイン | [20260526.md](./20260526.md) |
 | 2026-05-25 | 月 | 技術 + 実装 | [20260525.md](./20260525.md) |
-| 2026-05-24 | 日 | 自由探索 | [20260524.md](./20260524.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Figma AI Agent canvas integration による design-to-code の品質向上と組織への impact — auto layout・text-to-UI・live web context の実装詳細、design system compliance 自動検証、73% adoption rate の背景と designer workflow transformation
+- Enterprise AI adoption の 88% vs 6% gap 構造分析と organizational readiness の critical barrier — agentic AI 導入遅滞の root cause、change management strategy、Fortune 500 の成功事例から学ぶ implementation pattern
+- OpenAI・Anthropic・xAI 最大級資金調達と model supply chain が design・content layer に与える影響 — infrastructure plays への資金集中メカニズム、Series A funding criteria 変化（proof of value 重視）、 frontend AI 企業への資金流動性への upstream impact
 - Marble（World Labs）による永続的 3D 環境生成の実装パターン — 単一画像・テキストからの 3D 生成の技術仕様、WebGL・Three.js との統合、ゲーム・メタバース・VFX production での活用事例
 - Suno AI v5.5 と商用音楽生成の production pipeline — 30% charting singles での AI クレジット現象の背景、creator rights・ロイヤリティ問題、ビデオ制作・ゲーム・広告での cost-quality trade-off
 - 生成型エンタメメディア市場 $5.38B の内訳分析と企業別戦略 — 動画・音楽・画像・テキスト各セグメントの成長率、Suno・ElevenLabs・Figma AI の市場シェア競争、クリエイター vs enterprise adoption
