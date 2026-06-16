@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-16（火）
+最終更新: 2026-06-17（水）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[OpenAI・Anthropic・xAI 最大級の資金調達、Q1 2026 で歴史最大の VC ラウンド成立](https://aifundingtracker.com/top-50-ai-startups/)** — model 供給能力が design・content generation 層に与える市場インパクト必須化、Series A $51.9M 平均で infrastructure plays へ集中投資
-- **[Figma AI Agent、5 月 20 日ベータ公開で canvas デザイン自動化が本格化](https://help.figma.com/hc/en-us/articles/23870272542231-Use-AI-tools-in-Figma-Design)** — 73% designer 採用率、auto layout・text-to-UI・live web context で design system compliance 自動化、production workflow 統合加速
-- **[エンタープライズ AI 採用率 88%、Agentic AI 導入は 6% に留まる構造的課題](https://codewave.com/insights/ai-enterprise-adoption-2026/)** — designer side readiness 高いが backend integration・governance 遅れ、organizational readiness と change management が critical barrier
+- **[Anthropic、Claude Sonnet 4 と Opus 4 の EOL ポリシー発表（6 月 15 日）](https://www.cloudzero.com/blog/llm-api-pricing-comparison/)** — API サポート終了で Opus 4.8 への移行必須、Batch API の 50% 割引活用で cost governance 再設計が急務
+- **[GPT-5.5 エコシステム完成、frontier モデル競争激化](https://manifold.markets/prismatic/june-2026-ai-model-releases)** — $5/$30 価格体系で GPT-5.4 ファミリと並行、cost-quality trade-off での routing strategy 明確化
+- **[Three.js AI インテグレーション、WebGPU 本番環境対応完了](https://www.utsubo.com/blog/threejs-2026-what-changed)** — local inference リアルタイム実装で Web3D 開発コスト 30～40% 削減、vibe coding パラダイム確立
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-17 | 水 | 技術 + 実装 | [20260617.md](./20260617.md) |
 | 2026-06-16 | 火 | ビジネス + デザイン | [20260616.md](./20260616.md) |
 | 2026-06-14 | 日 | 自由探索 | [20260614.md](./20260614.md) |
 | 2026-06-13 | 土 | 週まとめ + 深掘り | [20260613.md](./20260613.md) |
@@ -43,6 +44,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Anthropic Claude Sonnet 4/Opus 4 EOL による API migration strategy と cost governance 再設計 — Opus 4.8 への移行パターン、Batch API 50% 割引活用の最適化、multi-model routing で vendor lock-in 回避
+- GPT-5.5 frontier model ecosystem と cost-quality trade-off routing strategy — $5/$30 pricing での運用パターン検証、DeepSeek V4-Flash・Claude Opus 4.8 との性能比較、LLM routing layer 設計
+- Three.js WebGPU + AI integration による Web3D 開発パターン — 3D AI Studio・3Daily AI・Tripo3D との pipeline 構築、local inference リアルタイム実装、interactive environment agentic control の実装例
 - Figma AI Agent canvas integration による design-to-code の品質向上と組織への impact — auto layout・text-to-UI・live web context の実装詳細、design system compliance 自動検証、73% adoption rate の背景と designer workflow transformation
 - Enterprise AI adoption の 88% vs 6% gap 構造分析と organizational readiness の critical barrier — agentic AI 導入遅滞の root cause、change management strategy、Fortune 500 の成功事例から学ぶ implementation pattern
 - OpenAI・Anthropic・xAI 最大級資金調達と model supply chain が design・content layer に与える影響 — infrastructure plays への資金集中メカニズム、Series A funding criteria 変化（proof of value 重視）、 frontend AI 企業への資金流動性への upstream impact
