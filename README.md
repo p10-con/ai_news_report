@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-17（水）
+最終更新: 2026-06-18（木）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Anthropic、Claude Sonnet 4 と Opus 4 の EOL ポリシー発表（6 月 15 日）](https://www.cloudzero.com/blog/llm-api-pricing-comparison/)** — API サポート終了で Opus 4.8 への移行必須、Batch API の 50% 割引活用で cost governance 再設計が急務
-- **[GPT-5.5 エコシステム完成、frontier モデル競争激化](https://manifold.markets/prismatic/june-2026-ai-model-releases)** — $5/$30 価格体系で GPT-5.4 ファミリと並行、cost-quality trade-off での routing strategy 明確化
-- **[Three.js AI インテグレーション、WebGPU 本番環境対応完了](https://www.utsubo.com/blog/threejs-2026-what-changed)** — local inference リアルタイム実装で Web3D 開発コスト 30～40% 削減、vibe coding パラダイム確立
+- **[Figma/Uizard/UiMagic AI デザインツール統合で designer 生産性 10 倍化](./20260618.md)** — テキスト・スケッチから高品質 UI を数分で生成、design-to-code fidelity 85% 達成で Fortune 500 の 73% 採用
+- **[Google Stitch AI デザインキャンバス正式リリース、テキスト・音声・スケッチ対応](./20260618.md)** — 無限キャンバス・エージェント機能で UI 生成 3～5 倍高速化、Pics・Gemini Omni で Web・モバイル・3D 統一プラットフォーム化
+- **[Anthropic × Microsoft Maia 200 チップ Azure 統合で推論コスト 30% 削減](./20260618.md)** — チップあたりのコスト最適化で API 競争力強化、独立系 AI インフラ標準化が進行
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-18 | 木 | ビジネス + デザイン | [20260618.md](./20260618.md) |
 | 2026-06-17 | 水 | 技術 + 実装 | [20260617.md](./20260617.md) |
 | 2026-06-16 | 火 | ビジネス + デザイン | [20260616.md](./20260616.md) |
 | 2026-06-14 | 日 | 自由探索 | [20260614.md](./20260614.md) |
@@ -44,6 +45,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Figma AI design-to-code fidelity と design system compliance 検証パイプライン — AI 生成コンポーネントの QA 自動化、designer adoption 率 73% の詳細分析、Fortune 500 での実装パターン
+- Google Stitch AI canvas × 3D/Web/Mobile 統一プラットフォーム化の enterprise impact — Pics・Gemini Omni との統合、UI 生成スピード 3～5 倍化の実装メカニズム、design-to-development 効率化の定量測定
+- Microsoft Maia 200 チップと独立系 AI インフラの標準化戦略 — Azure integration 詳細、30% コスト削減の技術的背景、OpenAI・Google との infrastructure 競争軸の変化
 - Anthropic Claude Sonnet 4/Opus 4 EOL による API migration strategy と cost governance 再設計 — Opus 4.8 への移行パターン、Batch API 50% 割引活用の最適化、multi-model routing で vendor lock-in 回避
 - GPT-5.5 frontier model ecosystem と cost-quality trade-off routing strategy — $5/$30 pricing での運用パターン検証、DeepSeek V4-Flash・Claude Opus 4.8 との性能比較、LLM routing layer 設計
 - Three.js WebGPU + AI integration による Web3D 開発パターン — 3D AI Studio・3Daily AI・Tripo3D との pipeline 構築、local inference リアルタイム実装、interactive environment agentic control の実装例
