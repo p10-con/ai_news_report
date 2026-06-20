@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-20（土）
+最終更新: 2026-06-21（日）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Fable 5 × 大規模 refactoring の実装パターン](./20260620.md)** — SWE-Bench Pro +11p 達成、senior engineer 時給との cost-benefit 逆転点で Fable 5 ROI 実現
-- **[PyTorch/vLLM × inference cost 削減と GPU 最適化](./20260620.md)** — H200/MI300X による 3～5 倍 throughput 改善、40～60% cost 削減メカニズム実装可能化
-- **[LLM Gateway インフラ進化 — API abstraction 層の生産標準化](./20260619.md)** — vendor lock-in 回避・cost governance 両立の multi-model routing が next quarter architecture decision に確定
+- **[生成型エンタメメディア市場 $5.38B 到達、ハイパーリアルと多モーダルが主流化](./20260621.md)** — フロントエンド・3D 開発サイクル 70% 短縮、生成アート無条件実装化で design-to-code fidelity 急進化
+- **[Altera Festival（6月16～17日）、生成 AI がメディア文化を再定義](./20260621.md)** — Interactive 生成 AI インスタレーション museum standard 化、creator・audience 境界消滅
+- **[Soundverse DNA と artist-centric AI 音楽プラットフォーム、UMG・Udio 提携](./20260621.md)** — Artist opt-in による creator rights 保護、EDM・pop で 50～66% AI 生成 receptivity 到達
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-21 | 日 | 自由探索 | [20260621.md](./20260621.md) |
 | 2026-06-20 | 土 | 週まとめ + 深掘り | [20260620.md](./20260620.md) |
 | 2026-06-19 | 金 | 技術 + 実装 | [20260619.md](./20260619.md) |
 | 2026-06-18 | 木 | ビジネス + デザイン | [20260618.md](./20260618.md) |
@@ -40,6 +41,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- 生成型エンタメメディア $5.38B market の内訳分析 — 動画・音楽・画像・テキスト各セグメント成長率、Runway/Suno/Figma AI の市場シェア、creator vs enterprise adoption pattern、WebGL・Three.js との integration model
+- Altera Festival インスタレーション × interactive AI art の design pattern — TeamLab・Refik Anadol の実装メカニズム、visitor movement detection、real-time 生成ビジュアル、museum・gallery での運用 case study
+- Soundverse DNA × artist sonic identity learning の technical deep-dive — fine-tuning mechanism、creator rights opt-in platform の business model、Suno/Udio/UMG partnership の構造分析、EDM・pop での商用化進捗
 - LLM Gateway architecture 生産標準化と vendor lock-in 回避戦略 — LiteLLM/Portkey/Cloudflare/Vercel 比較、multi-model routing pattern、cost governance 設計の best practice、Fortune 500 の router decision criteria
 - Figma AI design-to-code fidelity と design system compliance 検証パイプライン — AI 生成コンポーネントの QA 自動化、designer adoption 率 73% の詳細分析、design system compliance 自動検証機構
 - Google Stitch AI canvas × 3D/Web/Mobile 統一プラットフォーム化の enterprise impact — Pics・Gemini Omni との統合、UI 生成スピード 3～5 倍化の実装メカニズム、design-to-development 効率化の定量測定
