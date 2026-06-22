@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-21（日）
+最終更新: 2026-06-23（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[生成型エンタメメディア市場 $5.38B 到達、ハイパーリアルと多モーダルが主流化](./20260621.md)** — フロントエンド・3D 開発サイクル 70% 短縮、生成アート無条件実装化で design-to-code fidelity 急進化
-- **[Altera Festival（6月16～17日）、生成 AI がメディア文化を再定義](./20260621.md)** — Interactive 生成 AI インスタレーション museum standard 化、creator・audience 境界消滅
-- **[Soundverse DNA と artist-centric AI 音楽プラットフォーム、UMG・Udio 提携](./20260621.md)** — Artist opt-in による creator rights 保護、EDM・pop で 50～66% AI 生成 receptivity 到達
+- **[Figma AI Agent が Web 検索統合、デザイナーの実装フロー革新](./20260623.md)** — AI 画像編集・Auto Layout 自動提案で実装サイクル 30～40% 短縮、MCP サーバー Figma Slides 対応
+- **[Anthropic が Series H で $30B 調達、OpenAI 超える民間評価額 $965B 達成](./20260623.md)** — Q1 2026 AI 投資 $300B のうち 50% 以上を Anthropic・OpenAI 独占、モデル開発予算競争激化
+- **[Gartner 予測：2026 年末までに 40% の企業アプリに AI Agent 組み込み](./20260623.md)** — AI Agent 市場 $10.9～12.06B、OpenAI 55% シェア保有、CAGR 44～46% で 2030 年爆発的成長
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-23 | 火 | ビジネス + デザイン | [20260623.md](./20260623.md) |
 | 2026-06-21 | 日 | 自由探索 | [20260621.md](./20260621.md) |
 | 2026-06-20 | 土 | 週まとめ + 深掘り | [20260620.md](./20260620.md) |
 | 2026-06-19 | 金 | 技術 + 実装 | [20260619.md](./20260619.md) |
@@ -41,6 +42,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Figma AI Agent × design-to-code fidelity と 73% adoption 背景 — MCP 統合で既存 design system との compliance 検証、AI 生成コンポーネントの QA automation pipeline、designer workflow transformation の定量測定
+- Anthropic $965B 企業価値と Claude API 戦略の拡張 — OpenAI 上回る評価基準の分析、long-context + agentic workflow による差別化戦略、Series H で調達した資金の R&D 配分計画
+- Enterprise AI Agents 市場 $10.9B への growth path と deployment adoption gap（88% vs 6%）— 企業向けアプリへの AI Agent 組み込みの組織的障壁、change management 失敗の root cause、Fortune 500 成功事例の pattern
 - 生成型エンタメメディア $5.38B market の内訳分析 — 動画・音楽・画像・テキスト各セグメント成長率、Runway/Suno/Figma AI の市場シェア、creator vs enterprise adoption pattern、WebGL・Three.js との integration model
 - Altera Festival インスタレーション × interactive AI art の design pattern — TeamLab・Refik Anadol の実装メカニズム、visitor movement detection、real-time 生成ビジュアル、museum・gallery での運用 case study
 - Soundverse DNA × artist sonic identity learning の technical deep-dive — fine-tuning mechanism、creator rights opt-in platform の business model、Suno/Udio/UMG partnership の構造分析、EDM・pop での商用化進捗
