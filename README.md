@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-23（火）
+最終更新: 2026-06-24（水）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma AI Agent が Web 検索統合、デザイナーの実装フロー革新](./20260623.md)** — AI 画像編集・Auto Layout 自動提案で実装サイクル 30～40% 短縮、MCP サーバー Figma Slides 対応
-- **[Anthropic が Series H で $30B 調達、OpenAI 超える民間評価額 $965B 達成](./20260623.md)** — Q1 2026 AI 投資 $300B のうち 50% 以上を Anthropic・OpenAI 独占、モデル開発予算競争激化
-- **[Gartner 予測：2026 年末までに 40% の企業アプリに AI Agent 組み込み](./20260623.md)** — AI Agent 市場 $10.9～12.06B、OpenAI 55% シェア保有、CAGR 44～46% で 2030 年爆発的成長
+- **[Google Gemini 3.5 Pro — 200万トークン超大型コンテキストウィンドウ公開](./20260624.md)** — Deep Think モード搭載、複雑な API 仕様・デザインシステム全体をコンテキストに含めたコード生成実現、開発効率飛躍的向上
+- **[OpenAI API 価格改定・モデルラインアップ再構成（2026年5月）](./20260624.md)** — GPT-5.5 $5/$30、自社サーブ微調整廃止、xAI Grok との価格差 50:1 拡大、実装選定が「単一モデル」から「目的別選別」へ昇格
+- **[MLPerf Training v6.0 — DeepSeek V3 671B 新規ベンチマーク導入](./20260624.md)** — クラウド学習システム参加 2 倍増、NVIDIA Blackwell 1.6 倍高速化達成、大規模 AI 基盤整備時の学習インフラ選定が cost/performance 決定要因に
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-24 | 水 | 技術 + 実装 | [20260624.md](./20260624.md) |
 | 2026-06-23 | 火 | ビジネス + デザイン | [20260623.md](./20260623.md) |
 | 2026-06-21 | 日 | 自由探索 | [20260621.md](./20260621.md) |
 | 2026-06-20 | 土 | 週まとめ + 深掘り | [20260620.md](./20260620.md) |
@@ -42,6 +43,9 @@
 
 ## 深掘り候補（次の土曜用）
 
+- Google Gemini 3.5 Pro 2M token context × 長文書処理・マルチターン推論の実装パターン — Deep Think 認知モードの効果測定、RAG 廃止による architecture 簡略化、API 呼び出しコスト vs token 削減の cost-benefit 分析
+- OpenAI API pricing 50:1 price gap × model-per-use case routing の enterprise strategy — frontier model（GPT-5.5）vs budget model（Grok 4.1）の使い分け基準、multi-model orchestration での blended cost 最適化、vendor lock-in 回避戦略
+- MLPerf v6.0 DeepSeek V3 671B benchmark × 大規模 MoE モデル学習性能の bottleneck 分析 — NVIDIA Blackwell 1.6 倍高速化の技術仕様、cloud training system adoption 2 倍増の背景、infrastructure cost governance decision の critical path
 - Figma AI Agent × design-to-code fidelity と 73% adoption 背景 — MCP 統合で既存 design system との compliance 検証、AI 生成コンポーネントの QA automation pipeline、designer workflow transformation の定量測定
 - Anthropic $965B 企業価値と Claude API 戦略の拡張 — OpenAI 上回る評価基準の分析、long-context + agentic workflow による差別化戦略、Series H で調達した資金の R&D 配分計画
 - Enterprise AI Agents 市場 $10.9B への growth path と deployment adoption gap（88% vs 6%）— 企業向けアプリへの AI Agent 組み込みの組織的障壁、change management 失敗の root cause、Fortune 500 成功事例の pattern
