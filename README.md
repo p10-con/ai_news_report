@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-24（水）
+最終更新: 2026-06-25（木）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Google Gemini 3.5 Pro — 200万トークン超大型コンテキストウィンドウ公開](./20260624.md)** — Deep Think モード搭載、複雑な API 仕様・デザインシステム全体をコンテキストに含めたコード生成実現、開発効率飛躍的向上
-- **[OpenAI API 価格改定・モデルラインアップ再構成（2026年5月）](./20260624.md)** — GPT-5.5 $5/$30、自社サーブ微調整廃止、xAI Grok との価格差 50:1 拡大、実装選定が「単一モデル」から「目的別選別」へ昇格
-- **[MLPerf Training v6.0 — DeepSeek V3 671B 新規ベンチマーク導入](./20260624.md)** — クラウド学習システム参加 2 倍増、NVIDIA Blackwell 1.6 倍高速化達成、大規模 AI 基盤整備時の学習インフラ選定が cost/performance 決定要因に
+- **[Claude Design — Anthropic 公式デザイン生成ツール（April 2026）](./20260625.md)** — 自然言語からインタラクティブプロトタイプを直接生成、デザイナー介在なしでエンジニアも設計可能化、フロントエンド開発サイクル劇的短縮
+- **[Figma AI / Figma Make — 設計ツール 91% AI 週次利用で業界標準化](./20260625.md)** — 平均ツール数 3 → 7 に倍増、Figma Make テキスト→デザイン生成で設計実装サイクル統合加速、enterprise standard 化進行
+- **[3D-Agent Blender プラグイン — テキスト→3D モデル生成、ネイティブ統合](./20260625.md)** — Blender ビューポート内での AI 3D 生成、export/import 廃止で AI パワー直結、3D コンテンツ制作サイクル短縮・プロトタイピング高速化実現
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-25 | 木 | ビジネス + デザイン | [20260625.md](./20260625.md) |
 | 2026-06-24 | 水 | 技術 + 実装 | [20260624.md](./20260624.md) |
 | 2026-06-23 | 火 | ビジネス + デザイン | [20260623.md](./20260623.md) |
 | 2026-06-21 | 日 | 自由探索 | [20260621.md](./20260621.md) |
@@ -37,12 +38,14 @@
 | 2026-06-12 | 金 | 技術 + 実装 | [20260612.md](./20260612.md) |
 | 2026-06-09 | 火 | ビジネス + デザイン | [20260609.md](./20260609.md) |
 | 2026-06-08 | 月 | 技術 + 実装 | [20260608.md](./20260608.md) |
-| 2026-06-06 | 土 | 週まとめ + 深掘り | [20260606.md](./20260606.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Design の design-to-code fidelity と design system compliance 検証 — Anthropic 公式ツールの component generation 精度、既存 design system との integration、designer vs engineer の workflow 統合メカニズム
+- Figma AI 91% adoption の実装パターン × design-to-code workflow 自動化 — Figma Make テキスト→デザイン生成の品質基準、design system constraint の enforce 方法、enterprise 導入の change management
+- 3D-Agent Blender plugin × text-to-3D mesh 品質と production workflow — AI 生成メッシュの topology 改善、hybrid AI+manual ワークフローでの効率基準、3D artist adoption metrics
 - Google Gemini 3.5 Pro 2M token context × 長文書処理・マルチターン推論の実装パターン — Deep Think 認知モードの効果測定、RAG 廃止による architecture 簡略化、API 呼び出しコスト vs token 削減の cost-benefit 分析
 - OpenAI API pricing 50:1 price gap × model-per-use case routing の enterprise strategy — frontier model（GPT-5.5）vs budget model（Grok 4.1）の使い分け基準、multi-model orchestration での blended cost 最適化、vendor lock-in 回避戦略
 - MLPerf v6.0 DeepSeek V3 671B benchmark × 大規模 MoE モデル学習性能の bottleneck 分析 — NVIDIA Blackwell 1.6 倍高速化の技術仕様、cloud training system adoption 2 倍増の背景、infrastructure cost governance decision の critical path
