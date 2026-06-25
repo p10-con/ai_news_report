@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-25（木）
+最終更新: 2026-06-26（金）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Design — Anthropic 公式デザイン生成ツール（April 2026）](./20260625.md)** — 自然言語からインタラクティブプロトタイプを直接生成、デザイナー介在なしでエンジニアも設計可能化、フロントエンド開発サイクル劇的短縮
-- **[Figma AI / Figma Make — 設計ツール 91% AI 週次利用で業界標準化](./20260625.md)** — 平均ツール数 3 → 7 に倍増、Figma Make テキスト→デザイン生成で設計実装サイクル統合加速、enterprise standard 化進行
-- **[3D-Agent Blender プラグイン — テキスト→3D モデル生成、ネイティブ統合](./20260625.md)** — Blender ビューポート内での AI 3D 生成、export/import 廃止で AI パワー直結、3D コンテンツ制作サイクル短縮・プロトタイピング高速化実現
+- **[Microsoft Seven MAI Models — frontier model family 独立系化](./20260626.md)** — OpenAI・Google・Anthropic に並ぶ自社開発 frontier model、Azure AI Studio 統合で enterprise onpremise deployment 実現、developer ecosystem での選択肢拡大
+- **[AI インフラが「スケール」から「推論最適化」へシフト](./20260626.md)** — inference cost governance が daily priority に、40～60% cost 削減実装可能、enterprises での blended compute strategy 確立期
+- **[Anthropic Claude Fable 5 + Mythos 5 GA](./20260626.md)** — Fable 5 は SWE-Bench Pro frontier barrier 更新、$10/$50 pricing で efficient inference 実現、Opus 4.8 EOL に伴う API migration window
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-26 | 金 | 技術 + 実装 | [20260626.md](./20260626.md) |
 | 2026-06-25 | 木 | ビジネス + デザイン | [20260625.md](./20260625.md) |
 | 2026-06-24 | 水 | 技術 + 実装 | [20260624.md](./20260624.md) |
 | 2026-06-23 | 火 | ビジネス + デザイン | [20260623.md](./20260623.md) |
@@ -37,12 +38,14 @@
 | 2026-06-13 | 土 | 週まとめ + 深掘り | [20260613.md](./20260613.md) |
 | 2026-06-12 | 金 | 技術 + 実装 | [20260612.md](./20260612.md) |
 | 2026-06-09 | 火 | ビジネス + デザイン | [20260609.md](./20260609.md) |
-| 2026-06-08 | 月 | 技術 + 実装 | [20260608.md](./20260608.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Microsoft MAI Models の enterprise onpremise deployment strategy — Azure AI Studio integration、cost-benefit vs Azure OpenAI、developer experience と performance trade-off
+- Inference optimization の production implementation patterns — vLLM・Flash Attention・KV cache の real-world cost 削減メカニズム、40～60% reduction の achievable threshold、multi-model routing での活用例
+- Claude Fable 5 × cost governance strategy at scale — prompt caching + batch API で 95% cost削減の実装パターン、code generation benchmark frontier barrier update の技術的背景
 - Claude Design の design-to-code fidelity と design system compliance 検証 — Anthropic 公式ツールの component generation 精度、既存 design system との integration、designer vs engineer の workflow 統合メカニズム
 - Figma AI 91% adoption の実装パターン × design-to-code workflow 自動化 — Figma Make テキスト→デザイン生成の品質基準、design system constraint の enforce 方法、enterprise 導入の change management
 - 3D-Agent Blender plugin × text-to-3D mesh 品質と production workflow — AI 生成メッシュの topology 改善、hybrid AI+manual ワークフローでの効率基準、3D artist adoption metrics
