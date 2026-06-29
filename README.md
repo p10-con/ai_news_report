@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-28（日）
+最終更新: 2026-06-30（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Fable 5 エクスポートコントロール + コスト最適化戦略の再構築](./20260627.md)** — 6月12日米国政府指令でFable 5全顧客向けアクセス停止、Opus 4.8延命とprompt caching・batch API（50%割引）による95%コスト削減パターン確立、regulatory risk assessment 急務
-- **[Design AI Agent実装パターン確立（Figma 91% × Claude Design June update）](./20260627.md)** — デザイナー91%がAI使用で品質向上報告、Claude DesignがJune17にdesign system import機能実装、design-to-code bidirectional binding で QA cost 30~50% 削減
-- **[LLM インフラ paradigm shift：API価格下げから cost governance へ](./20260627.md)** — 2025→2026年価格80%低下で commoditization 終局、vLLM・KV cache 最適化で4~40×cost削減確立、task-specific routing の engine 精度が competitive advantage に昇格
+- **[Figma Config 2026: Motion・Code Layers・AI ツール一斉リリース](./20260630.md)** — デザイナーとエンジニアの協業が加速、UI/UX 製作から実装まで Figma 内で完結可能に、フロントエンド開発の反復速度が飛躍的に向上
+- **[Anthropic が $965B 評価額で業界最大級の資金調達を完了](./20260630.md)** — OpenAI を上回るプライベート AI 企業に、AI 基盤モデル市場の覇権争いが激化、API 選択肢の拡大と価格競争加速が見込める
+- **[グローバル エンタープライズ AI 市場が $514.5B に到達](./20260630.md)** — 企業の 88% が AI を導入、平均投資額 $6.5M/年、AI 導入が経営の標準形へ
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-06-30 | 火 | ビジネス + デザイン | [20260630.md](./20260630.md) |
 | 2026-06-28 | 日 | 自由探索 | [20260628.md](./20260628.md) |
 | 2026-06-27 | 土 | 週まとめ + 深掘り | [20260627.md](./20260627.md) |
 | 2026-06-26 | 金 | 技術 + 実装 | [20260626.md](./20260626.md) |
@@ -36,15 +37,14 @@
 | 2026-06-18 | 木 | ビジネス + デザイン | [20260618.md](./20260618.md) |
 | 2026-06-17 | 水 | 技術 + 実装 | [20260617.md](./20260617.md) |
 | 2026-06-16 | 火 | ビジネス + デザイン | [20260616.md](./20260616.md) |
-| 2026-06-14 | 日 | 自由探索 | [20260614.md](./20260614.md) |
 | 2026-06-13 | 土 | 週まとめ + 深掘り | [20260613.md](./20260613.md) |
-| 2026-06-12 | 金 | 技術 + 実装 | [20260612.md](./20260612.md) |
-| 2026-06-09 | 火 | ビジネス + デザイン | [20260609.md](./20260609.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Figma Config 2026 Motion・Code Layers・Weave Tools の production impact — design-to-code fidelity 検証、design system compliance 自動化、designer efficiency gain の定量測定（open beta → GA への migration timeline）
+- Anthropic $965B 企業価値達成と OpenAI 競争軸の差別化 — Series H 資金配分計画、API pricing・提供体制の今後戦略、long-context + agentic workflow での市場ポジション確立
 - Claude Fable 5 export control 指令の enterprise migration strategy — regulatory compliance × model fallback routing、Opus 4.8 延命 vs 新規 frontier model adoption、SaaS vendor の gating decision criteria
 - Claude Design × Figma code layers による bidirectional design-to-code workflow — component fidelity validation pipeline の automation、design system governance の single source strategy、designer adoption at scale の change management
 - LLM inference cost governance の architecture pattern library — multi-model routing decision tree、prompt caching + batch API の blended cost optimization、task complexity threshold の quantification method
