@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-06-30（火）
+最終更新: 2026-07-03（金）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma Config 2026: Motion・Code Layers・AI ツール一斉リリース](./20260630.md)** — デザイナーとエンジニアの協業が加速、UI/UX 製作から実装まで Figma 内で完結可能に、フロントエンド開発の反復速度が飛躍的に向上
-- **[Anthropic が $965B 評価額で業界最大級の資金調達を完了](./20260630.md)** — OpenAI を上回るプライベート AI 企業に、AI 基盤モデル市場の覇権争いが激化、API 選択肢の拡大と価格競争加速が見込める
-- **[グローバル エンタープライズ AI 市場が $514.5B に到達](./20260630.md)** — 企業の 88% が AI を導入、平均投資額 $6.5M/年、AI 導入が経営の標準形へ
+- **[Claude Sonnet 5 正式リリース（6月30日）](./20260703.md)** — Anthropic の最新 frontier model が即座に API 提供開始、既存プロジェクトの AI 統合にあたり第一選択肢に、フロントエンド開発や AI ツール連携で安定性と性能が向上
+- **[AI インフラの推論最適化へのシフト（2026年トレンド）](./20260703.md)** — 推論ワークロードが全 compute の 3 分の 2 を占め、専用推論ハードウェア市場が 500 億ドル超に、企業の cost governance と deployment strategy が大きく転換
+- **[Q3 2026 Frontier Model 放出予測（Gemini 4・GPT-6・Claude Opus 5）](./20260703.md)** — 8 月中旬～9 月下旬は年間最高濃度のモデル放出ウィンドウ、既に平均 11 日に 1 つのペースで frontier model が登場、次 6 週間はモデル選定・統合計画の最適タイミング
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-07-03 | 金 | 技術 + 実装 | [20260703.md](./20260703.md) |
 | 2026-06-30 | 火 | ビジネス + デザイン | [20260630.md](./20260630.md) |
 | 2026-06-28 | 日 | 自由探索 | [20260628.md](./20260628.md) |
 | 2026-06-27 | 土 | 週まとめ + 深掘り | [20260627.md](./20260627.md) |
@@ -37,12 +38,14 @@
 | 2026-06-18 | 木 | ビジネス + デザイン | [20260618.md](./20260618.md) |
 | 2026-06-17 | 水 | 技術 + 実装 | [20260617.md](./20260617.md) |
 | 2026-06-16 | 火 | ビジネス + デザイン | [20260616.md](./20260616.md) |
-| 2026-06-13 | 土 | 週まとめ + 深掘り | [20260613.md](./20260613.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Claude Sonnet 5 の技術仕様・性能改善メカニズム — 前バージョン比での推論速度・精度・コスト差分分析、API 統合での実装パターン、frontier model 競争環境での技術的優位性
+- Q3 2026 frontier model release calendar 詳細分析 — Gemini 4/GPT-6/Claude Opus 5 の予想仕様比較、各社の技術戦略の差別化要因、model selection 最適化戦略
+- AI 推論インフラの cost governance 最適化戦略 — hybrid インフラ（パブリッククラウド + プライベート + エッジ）の実装パターン、custom 推論チップ（OpenAI/Google/Amazon/Meta）の cost-quality trade-off、35～50% cost 削減の実現方法
 - Figma Config 2026 Motion・Code Layers・Weave Tools の production impact — design-to-code fidelity 検証、design system compliance 自動化、designer efficiency gain の定量測定（open beta → GA への migration timeline）
 - Anthropic $965B 企業価値達成と OpenAI 競争軸の差別化 — Series H 資金配分計画、API pricing・提供体制の今後戦略、long-context + agentic workflow での市場ポジション確立
 - Claude Fable 5 export control 指令の enterprise migration strategy — regulatory compliance × model fallback routing、Opus 4.8 延命 vs 新規 frontier model adoption、SaaS vendor の gating decision criteria
