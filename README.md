@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-07-03（金）
+最終更新: 2026-07-04（土）
 
 ---
 
@@ -8,15 +8,15 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Claude Sonnet 5 正式リリース（6月30日）](./20260703.md)** — Anthropic の最新 frontier model が即座に API 提供開始、既存プロジェクトの AI 統合にあたり第一選択肢に、フロントエンド開発や AI ツール連携で安定性と性能が向上
-- **[AI インフラの推論最適化へのシフト（2026年トレンド）](./20260703.md)** — 推論ワークロードが全 compute の 3 分の 2 を占め、専用推論ハードウェア市場が 500 億ドル超に、企業の cost governance と deployment strategy が大きく転換
-- **[Q3 2026 Frontier Model 放出予測（Gemini 4・GPT-6・Claude Opus 5）](./20260703.md)** — 8 月中旬～9 月下旬は年間最高濃度のモデル放出ウィンドウ、既に平均 11 日に 1 つのペースで frontier model が登場、次 6 週間はモデル選定・統合計画の最適タイミング
+- **[Claude Sonnet 5 技術仕様と性能改善メカニズム](./20260704.md)** — Sonnet 5 は x-high 推論で Opus 4.8 中位と同等性能を実現、$2/$10 pricing で cost-quality trade-off を逆転、frontend AI 統合の immediate action item に
+- **[Figma Config 2026 Motion・Code Layers・Weave Tools の Production Impact](./20260704.md)** — 72% デザイナー AI 採用、91% が品質改善を実感、design-to-code workflow の本番化へ向け design system compliance 自動検証が critical path
+- **[Anthropic $965B 企業価値達成と OpenAI 競争軸の差別化](./20260630.md)** — Series H で $65B 調達、評価額が初めて OpenAI（$1.2T）に並ぶ水準に到達、市場支配が多極化へシフト
 
 ---
 
 ## 今週のサマリー
 
-2026年6月第4週：「frontier AI model access の regulatory restriction」と「design-to-code workflow の production standardization」で特徴付けられる。技術面：Claude Fable 5 export control 指令（June 12）により model availability は逆戻りも、cost optimization 7 levers（prompt caching 90% cut・batch API 50% discount・task routing・KV cache最適化等）確立で Opus 4.8/Sonnet 4 での implementation に direction 明確化。SWE-Bench Pro frontier barrier 再定義（Fable 80.3% vs Mythos 5 GA）と同時に multi-model routing engine 精度が enterprise decision criteria に。ビジネス面：Figma デザイナー91% AI adoption の質的shift（速度→品質）、Claude Design June 17 update による design system automation で QA cost 削減、code-to-design bidirectional binding の standardization（Figma Config 2026）。Infrastructure face：LLM API price drop 80% complete cycle で、frontier model × cost governance orchestration が production baseline に。Fortune 500 cost governance decision point は regulatory impact + model portfolio diversification strategy で Q3 2026 enterprise budget cycle 反映予定。
+2026年6月最終週～7月第1週は「Frontier Model Cost Optimization」と「Design-to-Code Workflow Standardization」が合流し、business model の転換点となった。技術・ビジネス統合面では：Claude Sonnet 5 が $2/$10 pricing で中位モデル・低価格ポジションを確立し、Opus 4.8 + Sonnet 5 + Haiku の三層 cost governance routing が production standard に昇華。Figma Config 2026 は design system automation（AI component compliance 検証・design token single source of truth）により QA cost 30～50% 削減可能性を示唆。Anthropic $965B 評価達成は OpenAI 市場支配の多極化を示し、API 選定軸が vendor lock-in 回避へシフト。組織実装面では：designer 31% vs developer 59% の AI 採用率差は QA・reliability 差異に由来し、training + tool integration による組織的支援が必須。Q3 2026 frontier model 一斉放出下での「modular routing + cost governance」と「design system + compliance automation」が Fortune 500 level での competitive advantage となる段階に突入。
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-07-04 | 土 | 週まとめ + 深掘り | [20260704.md](./20260704.md) |
 | 2026-07-03 | 金 | 技術 + 実装 | [20260703.md](./20260703.md) |
 | 2026-06-30 | 火 | ビジネス + デザイン | [20260630.md](./20260630.md) |
 | 2026-06-28 | 日 | 自由探索 | [20260628.md](./20260628.md) |
@@ -37,7 +38,6 @@
 | 2026-06-19 | 金 | 技術 + 実装 | [20260619.md](./20260619.md) |
 | 2026-06-18 | 木 | ビジネス + デザイン | [20260618.md](./20260618.md) |
 | 2026-06-17 | 水 | 技術 + 実装 | [20260617.md](./20260617.md) |
-| 2026-06-16 | 火 | ビジネス + デザイン | [20260616.md](./20260616.md) |
 
 ---
 
