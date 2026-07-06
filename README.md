@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-07-06（月）
+最終更新: 2026-07-07（火）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Next.js 16.2/16.3 AI改善で開発ワークフロー進化](./20260706.md)** — エージェント対応プロジェクト生成が標準化、AI コーディングエージェント向けドキュメント自動提供で 100% 評価成功率実現、開発生産性向上が確定
-- **[Claude Sonnet 5登場・価格圧縮で実装選択肢拡大](./20260706.md)** — $2/$10 導入価格で Sonnet 4.6 同等性能、SWE-Bench 63.2% スコア、コスト性能比 12 ヶ月前比 3 倍改善、AI 統合アプリの採算性が急速改善
-- **[Claude Managed Agents拡張で大規模エージェント展開対応](./20260706.md)** — MCP・ツール設定の動的更新対応、100K+ トークン出力の自動ファイルスピル、エージェント型アプリの長時間運用・複合タスク実装が実現可能に
+- **[Figma AI エージェント、モーション・3D・シェーダー機能が正式版へ](./20260707.md)** — 自然言語でデザイン生成、motion/3D でプロトタイピング効率大幅向上、web 検索統合でコンテンツ引き込み自動化、フロントエンド + デザインワークフロー革新
+- **[Snowflake と Anthropic、エンタープライズ AI 採用を加速](./20260707.md)** — ガバナンス主導の企業向けソリューション強化、ノーコード AI ワークフロー設計でボトルネック排除、79% が課題抱える中での adoption acceleration
+- **[Together AI が Series C で 8 億ドル調達、AI インフラ競争激化](./20260707.md)** — AI 企業の資金調達が過去最高ペース（$330B 超 Q1 2026）、インフラ層集約が front-end cost-quality 選択肢拡張、低コスト実装が加速
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-07-07 | 火 | ビジネス + デザイン | [20260707.md](./20260707.md) |
 | 2026-07-06 | 月 | 技術 + 実装 | [20260706.md](./20260706.md) |
 | 2026-07-04 | 土 | 週まとめ + 深掘り | [20260704.md](./20260704.md) |
 | 2026-07-03 | 金 | 技術 + 実装 | [20260703.md](./20260703.md) |
@@ -37,12 +38,14 @@
 | 2026-06-21 | 日 | 自由探索 | [20260621.md](./20260621.md) |
 | 2026-06-20 | 土 | 週まとめ + 深掘り | [20260620.md](./20260620.md) |
 | 2026-06-19 | 金 | 技術 + 実装 | [20260619.md](./20260619.md) |
-| 2026-06-18 | 木 | ビジネス + デザイン | [20260618.md](./20260618.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Figma AI Agent design-to-code fidelity と design system compliance 検証 — MCP 統合で既存 design system との compliance 検証、AI 生成コンポーネントの QA automation pipeline、73% adoption rate の詳細分析、designer workflow transformation
+- Snowflake × Anthropic ガバナンス AI による enterprise adoption acceleration — ノーコード AI ワークフロー設計パターン、IT ボトルネック排除メカニズム、79% 課題抱える企業の adoption curve、ROI 実現への change management
+- AI infrastructure funding trend 2026 — $330B 超調達の資金流動性分析、foundation model vs infrastructure 企業への資金配分、frontier model 競争環境での tech differentiation、cost-quality trade-off 選択肢の拡張
 - Next.js 16.2/16.3 agent-ready scaffold の実装詳細と production adoption — AGENTS.md ファイル構成、Vercel AI SDK との統合パターン、レガシープロジェクト migration strategy、enterprise 導入事例
 - Claude Sonnet 5 vs Claude Fable 5 の実装選択基準と cost governance — performance vs cost trade-off 検証、coding benchmark 詳細比較、SWE-Bench Pro での実装差分、production routing decision criteria
 - Claude Managed Agents の MCP 動的更新と長時間運用パターン — webhook-based async coordination、session memory 永続化、agent failure recovery strategy、multi-agent orchestration best practice
