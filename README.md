@@ -1,6 +1,6 @@
 # AI News Log
 
-最終更新: 2026-07-07（火）
+最終更新: 2026-07-08（水）
 
 ---
 
@@ -8,9 +8,9 @@
 
 > 直近で最も重要なトピックを 3 件、一言コメント付きで列挙。
 
-- **[Figma AI エージェント、モーション・3D・シェーダー機能が正式版へ](./20260707.md)** — 自然言語でデザイン生成、motion/3D でプロトタイピング効率大幅向上、web 検索統合でコンテンツ引き込み自動化、フロントエンド + デザインワークフロー革新
-- **[Snowflake と Anthropic、エンタープライズ AI 採用を加速](./20260707.md)** — ガバナンス主導の企業向けソリューション強化、ノーコード AI ワークフロー設計でボトルネック排除、79% が課題抱える中での adoption acceleration
-- **[Together AI が Series C で 8 億ドル調達、AI インフラ競争激化](./20260707.md)** — AI 企業の資金調達が過去最高ペース（$330B 超 Q1 2026）、インフラ層集約が front-end cost-quality 選択肢拡張、低コスト実装が加速
+- **[Google I/O 2026: Gemini + WebGL で 3D 無限ワールド生成](./20260708.md)** — AI 生成 2D スプライトシート → WebGL リアルタイムテクスチャマッピング、ユーザー描写から数秒で 3D 世界構築、フロントエンド + AI デザインの新フロンティア
+- **[Claude Sonnet 5 正式リリース（6 月 30 日）](./20260708.md)** — 新フラッグシップモデル、長文ライティング・推論・コーディング最適化、エージェント開発の品質向上と API コスト効率が両立
+- **[Three.js 2026: WebGPU 本番化 + AI 開発ツール生態系](./20260708.md)** — Tripo3D・3D AI Studio・3Daily による生成 3D ツール群成熟、「Vibe Coding」でノンコーダーも 3D 実装可能、ブラウザ内ローカル AI 推論も実現
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 日付 | 曜日 | テーマ | ファイル |
 |------|------|--------|----------|
+| 2026-07-08 | 水 | 技術 + 実装 | [20260708.md](./20260708.md) |
 | 2026-07-07 | 火 | ビジネス + デザイン | [20260707.md](./20260707.md) |
 | 2026-07-06 | 月 | 技術 + 実装 | [20260706.md](./20260706.md) |
 | 2026-07-04 | 土 | 週まとめ + 深掘り | [20260704.md](./20260704.md) |
@@ -37,12 +38,14 @@
 | 2026-06-23 | 火 | ビジネス + デザイン | [20260623.md](./20260623.md) |
 | 2026-06-21 | 日 | 自由探索 | [20260621.md](./20260621.md) |
 | 2026-06-20 | 土 | 週まとめ + 深掘り | [20260620.md](./20260620.md) |
-| 2026-06-19 | 金 | 技術 + 実装 | [20260619.md](./20260619.md) |
 
 ---
 
 ## 深掘り候補（次の土曜用）
 
+- Google I/O 2026 Gemini + WebGL で Infinite Scaler デモの技術実装 — Gemini API でのスプライトシート生成精度、WebGL テクスチャマッピングのパフォーマンス測定、インタラクティブ 3D 世界生成の product readiness 検証
+- Claude Sonnet 5 vs Claude Fable 5 の実装選択基準と cost governance — performance vs cost trade-off 検証、coding benchmark 詳細比較、API 統合での実装パターン、production routing decision criteria
+- Three.js WebGPU 本番化 + Vibe Coding の developer adoption patterns — AI コード生成の精度検証、WebGPU local inference の latency・cost baseline 測定、Tripo3D/3D AI Studio との integration workflow、ノンコーダー向け 3D 開発の market opportunity
 - Figma AI Agent design-to-code fidelity と design system compliance 検証 — MCP 統合で既存 design system との compliance 検証、AI 生成コンポーネントの QA automation pipeline、73% adoption rate の詳細分析、designer workflow transformation
 - Snowflake × Anthropic ガバナンス AI による enterprise adoption acceleration — ノーコード AI ワークフロー設計パターン、IT ボトルネック排除メカニズム、79% 課題抱える企業の adoption curve、ROI 実現への change management
 - AI infrastructure funding trend 2026 — $330B 超調達の資金流動性分析、foundation model vs infrastructure 企業への資金配分、frontier model 競争環境での tech differentiation、cost-quality trade-off 選択肢の拡張
